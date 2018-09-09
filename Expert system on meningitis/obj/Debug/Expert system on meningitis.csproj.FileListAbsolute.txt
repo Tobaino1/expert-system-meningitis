@@ -1,0 +1,18 @@
+C:\Users\Trusoft\source\repos\Expert system on meningitis\Expert system on meningitis\bin\Debug\Expert system on meningitis.exe.config
+C:\Users\Trusoft\source\repos\Expert system on meningitis\Expert system on meningitis\bin\Debug\Expert system on meningitis.exe
+C:\Users\Trusoft\source\repos\Expert system on meningitis\Expert system on meningitis\bin\Debug\Expert system on meningitis.pdb
+C:\Users\Trusoft\source\repos\Expert system on meningitis\Expert system on meningitis\obj\Debug\Expert system on meningitis.csprojAssemblyReference.cache
+C:\Users\Trusoft\source\repos\Expert system on meningitis\Expert system on meningitis\obj\Debug\Expert_system_on_meningitis.Form1.resources
+C:\Users\Trusoft\source\repos\Expert system on meningitis\Expert system on meningitis\obj\Debug\Expert_system_on_meningitis.Properties.Resources.resources
+C:\Users\Trusoft\source\repos\Expert system on meningitis\Expert system on meningitis\obj\Debug\Expert system on meningitis.csproj.GenerateResource.cache
+C:\Users\Trusoft\source\repos\Expert system on meningitis\Expert system on meningitis\obj\Debug\Expert system on meningitis.csproj.CoreCompileInputs.cache
+C:\Users\Trusoft\source\repos\Expert system on meningitis\Expert system on meningitis\obj\Debug\Expert system on meningitis.exe
+C:\Users\Trusoft\source\repos\Expert system on meningitis\Expert system on meningitis\obj\Debug\Expert system on meningitis.pdb
+C:\Users\Trusoft\source\repos\Expert system on meningitis\Expert system on meningitis\obj\Debug\Expert_system_on_meningitis.Form2.resources
+C:\Users\Trusoft\source\repos\Expert system on meningitis\Expert system on meningitis\obj\Debug\Expert_system_on_meningitis.Form3.resources
+C:\Users\Trusoft\source\repos\Expert system on meningitis\Expert system on meningitis\bin\Debug\MySql.Data.dll
+C:\Users\Trusoft\source\repos\Expert system on meningitis\Expert system on meningitis\bin\Debug\MySql.Data.xml
+C:\Users\Trusoft\source\repos\Expert system on meningitis\Expert system on meningitis\obj\Debug\Expert system on meningitis.csproj.CopyComplete
+C:\Users\Trusoft\source\repos\Expert system on meningitis\Expert system on meningitis\obj\Debug\Expert_system_on_meningitis.Form4.resources
+C:\Users\Trusoft\source\repos\Expert system on meningitis\Expert system on meningitis\obj\Debug\Expert_system_on_meningitis.Form5.resources
+C:\Users\Trusoft\source\repos\Expert system on meningitis\Expert system on meningitis\obj\Debug\Expert_system_on_meningitis.Form6.resources
