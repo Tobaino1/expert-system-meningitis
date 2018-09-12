@@ -126,7 +126,7 @@
             // pictureBox1
             // 
             this.pictureBox1.Image = global::Expert_system_on_meningitis.Properties.Resources.KEY;
-            this.pictureBox1.Location = new System.Drawing.Point(40, 57);
+            this.pictureBox1.Location = new System.Drawing.Point(40, 56);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(169, 157);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;

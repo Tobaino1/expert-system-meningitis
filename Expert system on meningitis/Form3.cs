@@ -55,7 +55,7 @@ namespace Expert_system_on_meningitis
             con.Open();
             MySqlCommand cmd = new MySqlCommand("INSERT INTO patientreg (`name`, `address`, `age`, `phone_no`, `gender`, `card_no`) VALUES ('" + textBox1.Text + "','" + textBox2.Text + "','" + textBox3.Text + "','" + textBox4.Text + "','" + textBox5.Text + "','" + textBox6.Text + "')", con);
             cmd.ExecuteNonQuery();
-            MessageBox.Show("succesful");
+            MessageBox.Show("record has been succesfully inserted in the database");
             con.Close();
             
 
@@ -78,7 +78,7 @@ namespace Expert_system_on_meningitis
         {
             MySqlConnection con = new MySqlConnection("server=localhost;user id=root;database=meningitis");
             con.Open();
-            MySqlCommand cmd = new MySqlCommand("DELETE FROM `patientreg` WHERE id = '" + textBox7.Text + "'", con);
+            MySqlCommand cmd = new MySqlCommand("DELETE FROM `patientreg` WHERE card_no = '" + textBox7.Text + "'", con);
                
             cmd.ExecuteNonQuery();
             MessageBox.Show("record has been successfully deleted");
@@ -90,9 +90,9 @@ namespace Expert_system_on_meningitis
         {
             MySqlConnection con = new MySqlConnection("server=localhost;user id=root;database=meningitis");
             con.Open();
-            MySqlCommand cmd = new MySqlCommand("UPDATE `patientreg` SET `name`= '" + textBox1.Text + "',`address`= '" + textBox2.Text + "',`age`= '" + textBox3.Text + "',`phone_no`= '" + textBox4.Text + "',`gender`= '" + textBox5.Text + "',`card_no`= '" + textBox6.Text +"' WHERE id = '" + textBox7.Text + "'", con);
+            MySqlCommand cmd = new MySqlCommand("UPDATE `patientreg` SET `name`= '" + textBox1.Text + "',`address`= '" + textBox2.Text + "',`age`= '" + textBox3.Text + "',`phone_no`= '" + textBox4.Text + "',`gender`= '" + textBox5.Text + "',`card_no`= '" + textBox6.Text +"' WHERE card_no = '" + textBox7.Text + "'", con);
             cmd.ExecuteNonQuery();
-            MessageBox.Show("successfully updated");
+            MessageBox.Show("record has been successfully updated");
             con.Close();
         }
 
@@ -125,6 +125,11 @@ namespace Expert_system_on_meningitis
             Form3 myform = new Form3();
             this.Hide();
             myform.Show();
+        }
+
+        private void label7_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
