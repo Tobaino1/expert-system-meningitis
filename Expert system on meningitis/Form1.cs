@@ -55,6 +55,7 @@ namespace Expert_system_on_meningitis
             con.Open();
             MySqlCommand cmd = new MySqlCommand("select * from user WHERE username = '" + textBox1.Text + "' AND password = '" + textBox2.Text + "'", con);
             cmd.ExecuteNonQuery();
+
             DataTable dt = new DataTable();
             MySqlDataAdapter da = new MySqlDataAdapter(cmd);
             da.Fill(dt);
