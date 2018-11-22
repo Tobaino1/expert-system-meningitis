@@ -44,5 +44,15 @@ namespace Expert_system_on_meningitis
             this.Hide();
             myform.Show();
         }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void webBrowser2_DocumentCompleted(object sender, WebBrowserDocumentCompletedEventArgs e)
+        {
+
+        }
     }
 }
