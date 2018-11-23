@@ -28,5 +28,14 @@ namespace Expert_system_on_meningitis
         {
             Application.Exit();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+
+            if (checkBox1.Checked)
+            {
+                MessageBox.Show("MALARIA");
+            }
+        }
     }
 }
