@@ -37,5 +37,22 @@ namespace Expert_system_on_meningitis
                 MessageBox.Show("MALARIA");
             }
         }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            textBox1.Text = "";
+            textBox2.Text = "";
+            textBox3.Text = "";
+            textBox4.Text = "";
+            textBox6.Text = "";
+           
+
+
+        }
     }
 }
