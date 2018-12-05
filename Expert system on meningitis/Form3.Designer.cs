@@ -49,6 +49,12 @@
             this.button4 = new System.Windows.Forms.Button();
             this.button5 = new System.Windows.Forms.Button();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.name = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.address = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.age = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.phone_no = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.gender = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.card_no = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.label7 = new System.Windows.Forms.Label();
             this.textBox7 = new System.Windows.Forms.TextBox();
             this.label8 = new System.Windows.Forms.Label();
@@ -56,12 +62,6 @@
             this.button7 = new System.Windows.Forms.Button();
             this.label9 = new System.Windows.Forms.Label();
             this.button8 = new System.Windows.Forms.Button();
-            this.name = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.address = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.age = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.phone_no = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.gender = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.card_no = new System.Windows.Forms.DataGridViewTextBoxColumn();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -276,7 +276,7 @@
             dataGridViewCellStyle5.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
             dataGridViewCellStyle5.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
             this.dataGridView1.DefaultCellStyle = dataGridViewCellStyle5;
-            this.dataGridView1.Location = new System.Drawing.Point(441, 67);
+            this.dataGridView1.Location = new System.Drawing.Point(440, 67);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.ReadOnly = true;
             dataGridViewCellStyle6.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
@@ -291,6 +291,42 @@
             this.dataGridView1.Size = new System.Drawing.Size(611, 331);
             this.dataGridView1.TabIndex = 17;
             this.dataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
+            // 
+            // name
+            // 
+            this.name.HeaderText = "NAME";
+            this.name.Name = "name";
+            this.name.ReadOnly = true;
+            // 
+            // address
+            // 
+            this.address.HeaderText = "ADDRESS";
+            this.address.Name = "address";
+            this.address.ReadOnly = true;
+            // 
+            // age
+            // 
+            this.age.HeaderText = "AGE";
+            this.age.Name = "age";
+            this.age.ReadOnly = true;
+            // 
+            // phone_no
+            // 
+            this.phone_no.HeaderText = "PHONE NO";
+            this.phone_no.Name = "phone_no";
+            this.phone_no.ReadOnly = true;
+            // 
+            // gender
+            // 
+            this.gender.HeaderText = "GENDER";
+            this.gender.Name = "gender";
+            this.gender.ReadOnly = true;
+            // 
+            // card_no
+            // 
+            this.card_no.HeaderText = "CARD NO";
+            this.card_no.Name = "card_no";
+            this.card_no.ReadOnly = true;
             // 
             // label7
             // 
@@ -310,6 +346,7 @@
             this.textBox7.Name = "textBox7";
             this.textBox7.Size = new System.Drawing.Size(58, 20);
             this.textBox7.TabIndex = 19;
+            this.textBox7.TextChanged += new System.EventHandler(this.textBox7_TextChanged);
             // 
             // label8
             // 
@@ -369,42 +406,6 @@
             this.button8.Text = "Refresh";
             this.button8.UseVisualStyleBackColor = true;
             this.button8.Click += new System.EventHandler(this.button8_Click_1);
-            // 
-            // name
-            // 
-            this.name.HeaderText = "NAME";
-            this.name.Name = "name";
-            this.name.ReadOnly = true;
-            // 
-            // address
-            // 
-            this.address.HeaderText = "ADDRESS";
-            this.address.Name = "address";
-            this.address.ReadOnly = true;
-            // 
-            // age
-            // 
-            this.age.HeaderText = "AGE";
-            this.age.Name = "age";
-            this.age.ReadOnly = true;
-            // 
-            // phone_no
-            // 
-            this.phone_no.HeaderText = "PHONE NO";
-            this.phone_no.Name = "phone_no";
-            this.phone_no.ReadOnly = true;
-            // 
-            // gender
-            // 
-            this.gender.HeaderText = "GENDER";
-            this.gender.Name = "gender";
-            this.gender.ReadOnly = true;
-            // 
-            // card_no
-            // 
-            this.card_no.HeaderText = "CARD NO";
-            this.card_no.Name = "card_no";
-            this.card_no.ReadOnly = true;
             // 
             // Form3
             // 

@@ -48,6 +48,19 @@
             this.label8 = new System.Windows.Forms.Label();
             this.button4 = new System.Windows.Forms.Button();
             this.button5 = new System.Windows.Forms.Button();
+            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.name = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.address = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.age = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.gender = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.card_number = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.diagnosis_report = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.button6 = new System.Windows.Forms.Button();
+            this.button7 = new System.Windows.Forms.Button();
+            this.button8 = new System.Windows.Forms.Button();
+            this.textBox5 = new System.Windows.Forms.TextBox();
+            this.label9 = new System.Windows.Forms.Label();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
@@ -121,7 +134,7 @@
             this.textBox4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox4.ForeColor = System.Drawing.Color.MediumVioletRed;
             this.textBox4.Location = new System.Drawing.Point(1080, 367);
-            this.textBox4.MaxLength = 11;
+            this.textBox4.MaxLength = 200;
             this.textBox4.Multiline = true;
             this.textBox4.Name = "textBox4";
             this.textBox4.Size = new System.Drawing.Size(260, 56);
@@ -228,11 +241,12 @@
             this.listBox1.FormattingEnabled = true;
             this.listBox1.ItemHeight = 20;
             this.listBox1.Items.AddRange(new object[] {
-            "Male",
-            "Female"});
+            "Select",
+            "Female",
+            "Male"});
             this.listBox1.Location = new System.Drawing.Point(1066, 269);
             this.listBox1.Name = "listBox1";
-            this.listBox1.Size = new System.Drawing.Size(159, 20);
+            this.listBox1.Size = new System.Drawing.Size(159, 24);
             this.listBox1.TabIndex = 25;
             // 
             // label8
@@ -254,6 +268,7 @@
             this.button4.TabIndex = 27;
             this.button4.Text = "Submit";
             this.button4.UseVisualStyleBackColor = true;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
             // button5
             // 
@@ -265,11 +280,116 @@
             this.button5.UseVisualStyleBackColor = true;
             this.button5.Click += new System.EventHandler(this.button5_Click);
             // 
+            // dataGridView1
+            // 
+            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.name,
+            this.address,
+            this.age,
+            this.gender,
+            this.card_number,
+            this.diagnosis_report});
+            this.dataGridView1.Location = new System.Drawing.Point(659, 473);
+            this.dataGridView1.Name = "dataGridView1";
+            this.dataGridView1.Size = new System.Drawing.Size(683, 260);
+            this.dataGridView1.TabIndex = 29;
+            this.dataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
+            // 
+            // name
+            // 
+            this.name.HeaderText = "NAME";
+            this.name.Name = "name";
+            // 
+            // address
+            // 
+            this.address.HeaderText = "ADDRESS";
+            this.address.Name = "address";
+            // 
+            // age
+            // 
+            this.age.HeaderText = "AGE";
+            this.age.Name = "age";
+            // 
+            // gender
+            // 
+            this.gender.HeaderText = "GENDER";
+            this.gender.Name = "gender";
+            // 
+            // card_number
+            // 
+            this.card_number.HeaderText = "CARD NUMBER";
+            this.card_number.Name = "card_number";
+            // 
+            // diagnosis_report
+            // 
+            this.diagnosis_report.HeaderText = "DIAGNOSIS REPORT";
+            this.diagnosis_report.MinimumWidth = 15;
+            this.diagnosis_report.Name = "diagnosis_report";
+            this.diagnosis_report.Width = 300;
+            // 
+            // button6
+            // 
+            this.button6.Location = new System.Drawing.Point(688, 372);
+            this.button6.Name = "button6";
+            this.button6.Size = new System.Drawing.Size(75, 23);
+            this.button6.TabIndex = 30;
+            this.button6.Text = "UPDATE";
+            this.button6.UseVisualStyleBackColor = true;
+            this.button6.Click += new System.EventHandler(this.button6_Click);
+            // 
+            // button7
+            // 
+            this.button7.Location = new System.Drawing.Point(807, 372);
+            this.button7.Name = "button7";
+            this.button7.Size = new System.Drawing.Size(75, 23);
+            this.button7.TabIndex = 31;
+            this.button7.Text = "DELETE";
+            this.button7.UseVisualStyleBackColor = true;
+            this.button7.Click += new System.EventHandler(this.button7_Click);
+            // 
+            // button8
+            // 
+            this.button8.Location = new System.Drawing.Point(969, 434);
+            this.button8.Name = "button8";
+            this.button8.Size = new System.Drawing.Size(75, 23);
+            this.button8.TabIndex = 32;
+            this.button8.Text = "REFRESH";
+            this.button8.UseVisualStyleBackColor = true;
+            this.button8.Click += new System.EventHandler(this.button8_Click);
+            // 
+            // textBox5
+            // 
+            this.textBox5.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox5.ForeColor = System.Drawing.Color.MediumVioletRed;
+            this.textBox5.Location = new System.Drawing.Point(730, 434);
+            this.textBox5.Name = "textBox5";
+            this.textBox5.Size = new System.Drawing.Size(85, 22);
+            this.textBox5.TabIndex = 33;
+            // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label9.ForeColor = System.Drawing.Color.DarkMagenta;
+            this.label9.Location = new System.Drawing.Point(513, 407);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(519, 16);
+            this.label9.TabIndex = 34;
+            this.label9.Text = "Insert the patient\'s card number in the Text Box for updating/editing, deleting o" +
+    "perations";
+            // 
             // Form5
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1370, 515);
+            this.ClientSize = new System.Drawing.Size(1354, 733);
+            this.Controls.Add(this.label9);
+            this.Controls.Add(this.textBox5);
+            this.Controls.Add(this.button8);
+            this.Controls.Add(this.button7);
+            this.Controls.Add(this.button6);
+            this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.button5);
             this.Controls.Add(this.button4);
             this.Controls.Add(this.label8);
@@ -292,6 +412,8 @@
             this.Controls.Add(this.label1);
             this.Name = "Form5";
             this.Text = "s";
+            this.Load += new System.EventHandler(this.Form5_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -319,5 +441,17 @@
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Button button4;
         private System.Windows.Forms.Button button5;
+        private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.DataGridViewTextBoxColumn name;
+        private System.Windows.Forms.DataGridViewTextBoxColumn address;
+        private System.Windows.Forms.DataGridViewTextBoxColumn age;
+        private System.Windows.Forms.DataGridViewTextBoxColumn gender;
+        private System.Windows.Forms.DataGridViewTextBoxColumn card_number;
+        private System.Windows.Forms.DataGridViewTextBoxColumn diagnosis_report;
+        private System.Windows.Forms.Button button6;
+        private System.Windows.Forms.Button button7;
+        private System.Windows.Forms.Button button8;
+        private System.Windows.Forms.TextBox textBox5;
+        private System.Windows.Forms.Label label9;
     }
 }

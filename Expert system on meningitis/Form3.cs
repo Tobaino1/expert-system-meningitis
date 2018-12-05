@@ -131,5 +131,10 @@ namespace Expert_system_on_meningitis
         {
 
         }
+
+        private void textBox7_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
