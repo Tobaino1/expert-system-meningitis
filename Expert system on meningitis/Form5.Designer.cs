@@ -240,7 +240,7 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(98, 32);
+            this.button1.Location = new System.Drawing.Point(98, 30);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(75, 23);
             this.button1.TabIndex = 10;
@@ -251,7 +251,7 @@
             // checkBox1
             // 
             this.checkBox1.AutoSize = true;
-            this.checkBox1.Location = new System.Drawing.Point(19, 36);
+            this.checkBox1.Location = new System.Drawing.Point(20, 31);
             this.checkBox1.Name = "checkBox1";
             this.checkBox1.Size = new System.Drawing.Size(61, 17);
             this.checkBox1.TabIndex = 11;
@@ -521,16 +521,16 @@
             // checkBox2
             // 
             this.checkBox2.AutoSize = true;
-            this.checkBox2.Location = new System.Drawing.Point(19, 73);
+            this.checkBox2.Location = new System.Drawing.Point(19, 71);
             this.checkBox2.Name = "checkBox2";
-            this.checkBox2.Size = new System.Drawing.Size(61, 17);
+            this.checkBox2.Size = new System.Drawing.Size(90, 17);
             this.checkBox2.TabIndex = 36;
-            this.checkBox2.Text = "FEVER";
+            this.checkBox2.Text = "FEVER (high)";
             this.checkBox2.UseVisualStyleBackColor = true;
             // 
             // button9
             // 
-            this.button9.Location = new System.Drawing.Point(98, 69);
+            this.button9.Location = new System.Drawing.Point(115, 69);
             this.button9.Name = "button9";
             this.button9.Size = new System.Drawing.Size(75, 23);
             this.button9.TabIndex = 35;
@@ -542,9 +542,9 @@
             this.checkBox3.AutoSize = true;
             this.checkBox3.Location = new System.Drawing.Point(19, 111);
             this.checkBox3.Name = "checkBox3";
-            this.checkBox3.Size = new System.Drawing.Size(61, 17);
+            this.checkBox3.Size = new System.Drawing.Size(84, 17);
             this.checkBox3.TabIndex = 38;
-            this.checkBox3.Text = "FEVER";
+            this.checkBox3.Text = "COLDNESS";
             this.checkBox3.UseVisualStyleBackColor = true;
             // 
             // button10
@@ -561,9 +561,9 @@
             this.checkBox4.AutoSize = true;
             this.checkBox4.Location = new System.Drawing.Point(19, 144);
             this.checkBox4.Name = "checkBox4";
-            this.checkBox4.Size = new System.Drawing.Size(61, 17);
+            this.checkBox4.Size = new System.Drawing.Size(79, 17);
             this.checkBox4.TabIndex = 40;
-            this.checkBox4.Text = "FEVER";
+            this.checkBox4.Text = "VOMITING";
             this.checkBox4.UseVisualStyleBackColor = true;
             // 
             // button11
@@ -580,9 +580,9 @@
             this.checkBox5.AutoSize = true;
             this.checkBox5.Location = new System.Drawing.Point(19, 174);
             this.checkBox5.Name = "checkBox5";
-            this.checkBox5.Size = new System.Drawing.Size(61, 17);
+            this.checkBox5.Size = new System.Drawing.Size(108, 17);
             this.checkBox5.TabIndex = 42;
-            this.checkBox5.Text = "FEVER";
+            this.checkBox5.Text = "VOMITING (high)";
             this.checkBox5.UseVisualStyleBackColor = true;
             // 
             // button12
@@ -599,9 +599,9 @@
             this.checkBox6.AutoSize = true;
             this.checkBox6.Location = new System.Drawing.Point(16, 209);
             this.checkBox6.Name = "checkBox6";
-            this.checkBox6.Size = new System.Drawing.Size(61, 17);
+            this.checkBox6.Size = new System.Drawing.Size(126, 17);
             this.checkBox6.TabIndex = 44;
-            this.checkBox6.Text = "FEVER";
+            this.checkBox6.Text = "HEADACHE (severe)";
             this.checkBox6.UseVisualStyleBackColor = true;
             // 
             // button13
@@ -618,9 +618,9 @@
             this.checkBox7.AutoSize = true;
             this.checkBox7.Location = new System.Drawing.Point(30, 426);
             this.checkBox7.Name = "checkBox7";
-            this.checkBox7.Size = new System.Drawing.Size(61, 17);
+            this.checkBox7.Size = new System.Drawing.Size(85, 17);
             this.checkBox7.TabIndex = 56;
-            this.checkBox7.Text = "FEVER";
+            this.checkBox7.Text = "HEADACHE";
             this.checkBox7.UseVisualStyleBackColor = true;
             // 
             // button14
@@ -637,9 +637,9 @@
             this.checkBox8.AutoSize = true;
             this.checkBox8.Location = new System.Drawing.Point(16, 388);
             this.checkBox8.Name = "checkBox8";
-            this.checkBox8.Size = new System.Drawing.Size(61, 17);
+            this.checkBox8.Size = new System.Drawing.Size(242, 17);
             this.checkBox8.TabIndex = 54;
-            this.checkBox8.Text = "FEVER";
+            this.checkBox8.Text = "Sometimes colour of urine is black water fever";
             this.checkBox8.UseVisualStyleBackColor = true;
             // 
             // button15
@@ -656,9 +656,9 @@
             this.checkBox9.AutoSize = true;
             this.checkBox9.Location = new System.Drawing.Point(16, 358);
             this.checkBox9.Name = "checkBox9";
-            this.checkBox9.Size = new System.Drawing.Size(61, 17);
+            this.checkBox9.Size = new System.Drawing.Size(113, 17);
             this.checkBox9.TabIndex = 52;
-            this.checkBox9.Text = "FEVER";
+            this.checkBox9.Text = "SWEATING (high)";
             this.checkBox9.UseVisualStyleBackColor = true;
             // 
             // button16
@@ -675,9 +675,9 @@
             this.checkBox10.AutoSize = true;
             this.checkBox10.Location = new System.Drawing.Point(16, 325);
             this.checkBox10.Name = "checkBox10";
-            this.checkBox10.Size = new System.Drawing.Size(61, 17);
+            this.checkBox10.Size = new System.Drawing.Size(84, 17);
             this.checkBox10.TabIndex = 50;
-            this.checkBox10.Text = "FEVER";
+            this.checkBox10.Text = "SWEATING";
             this.checkBox10.UseVisualStyleBackColor = true;
             // 
             // button17
@@ -694,9 +694,9 @@
             this.checkBox11.AutoSize = true;
             this.checkBox11.Location = new System.Drawing.Point(16, 287);
             this.checkBox11.Name = "checkBox11";
-            this.checkBox11.Size = new System.Drawing.Size(61, 17);
+            this.checkBox11.Size = new System.Drawing.Size(85, 17);
             this.checkBox11.TabIndex = 48;
-            this.checkBox11.Text = "FEVER";
+            this.checkBox11.Text = "COLD FEET";
             this.checkBox11.UseVisualStyleBackColor = true;
             // 
             // button18
@@ -713,9 +713,9 @@
             this.checkBox12.AutoSize = true;
             this.checkBox12.Location = new System.Drawing.Point(16, 250);
             this.checkBox12.Name = "checkBox12";
-            this.checkBox12.Size = new System.Drawing.Size(61, 17);
+            this.checkBox12.Size = new System.Drawing.Size(64, 17);
             this.checkBox12.TabIndex = 46;
-            this.checkBox12.Text = "FEVER";
+            this.checkBox12.Text = "THROB";
             this.checkBox12.UseVisualStyleBackColor = true;
             // 
             // button19
@@ -732,9 +732,9 @@
             this.checkBox13.AutoSize = true;
             this.checkBox13.Location = new System.Drawing.Point(27, 619);
             this.checkBox13.Name = "checkBox13";
-            this.checkBox13.Size = new System.Drawing.Size(61, 17);
+            this.checkBox13.Size = new System.Drawing.Size(96, 17);
             this.checkBox13.TabIndex = 68;
-            this.checkBox13.Text = "FEVER";
+            this.checkBox13.Text = "CONVULSION";
             this.checkBox13.UseVisualStyleBackColor = true;
             // 
             // button20
@@ -751,9 +751,9 @@
             this.checkBox14.AutoSize = true;
             this.checkBox14.Location = new System.Drawing.Point(30, 584);
             this.checkBox14.Name = "checkBox14";
-            this.checkBox14.Size = new System.Drawing.Size(61, 17);
+            this.checkBox14.Size = new System.Drawing.Size(110, 17);
             this.checkBox14.TabIndex = 66;
-            this.checkBox14.Text = "FEVER";
+            this.checkBox14.Text = "NECK STIFNESS";
             this.checkBox14.UseVisualStyleBackColor = true;
             // 
             // button21
@@ -770,9 +770,9 @@
             this.checkBox15.AutoSize = true;
             this.checkBox15.Location = new System.Drawing.Point(30, 554);
             this.checkBox15.Name = "checkBox15";
-            this.checkBox15.Size = new System.Drawing.Size(61, 17);
+            this.checkBox15.Size = new System.Drawing.Size(82, 17);
             this.checkBox15.TabIndex = 64;
-            this.checkBox15.Text = "FEVER";
+            this.checkBox15.Text = "DIARRHEA";
             this.checkBox15.UseVisualStyleBackColor = true;
             // 
             // button22
@@ -789,9 +789,9 @@
             this.checkBox16.AutoSize = true;
             this.checkBox16.Location = new System.Drawing.Point(30, 521);
             this.checkBox16.Name = "checkBox16";
-            this.checkBox16.Size = new System.Drawing.Size(61, 17);
+            this.checkBox16.Size = new System.Drawing.Size(136, 17);
             this.checkBox16.TabIndex = 62;
-            this.checkBox16.Text = "FEVER";
+            this.checkBox16.Text = "Body Temprature (high)";
             this.checkBox16.UseVisualStyleBackColor = true;
             // 
             // button23
@@ -808,9 +808,9 @@
             this.checkBox17.AutoSize = true;
             this.checkBox17.Location = new System.Drawing.Point(30, 493);
             this.checkBox17.Name = "checkBox17";
-            this.checkBox17.Size = new System.Drawing.Size(61, 17);
+            this.checkBox17.Size = new System.Drawing.Size(134, 17);
             this.checkBox17.TabIndex = 60;
-            this.checkBox17.Text = "FEVER";
+            this.checkBox17.Text = "Loss of Consciousness";
             this.checkBox17.UseVisualStyleBackColor = true;
             // 
             // button24
@@ -827,9 +827,9 @@
             this.checkBox18.AutoSize = true;
             this.checkBox18.Location = new System.Drawing.Point(30, 459);
             this.checkBox18.Name = "checkBox18";
-            this.checkBox18.Size = new System.Drawing.Size(61, 17);
+            this.checkBox18.Size = new System.Drawing.Size(114, 17);
             this.checkBox18.TabIndex = 58;
-            this.checkBox18.Text = "FEVER";
+            this.checkBox18.Text = "HEADACHE (high)";
             this.checkBox18.UseVisualStyleBackColor = true;
             // 
             // button25
@@ -846,9 +846,9 @@
             this.checkBox20.AutoSize = true;
             this.checkBox20.Location = new System.Drawing.Point(27, 647);
             this.checkBox20.Name = "checkBox20";
-            this.checkBox20.Size = new System.Drawing.Size(61, 17);
+            this.checkBox20.Size = new System.Drawing.Size(108, 17);
             this.checkBox20.TabIndex = 70;
-            this.checkBox20.Text = "FEVER";
+            this.checkBox20.Text = "SEIZURE (coma)";
             this.checkBox20.UseVisualStyleBackColor = true;
             // 
             // button27
@@ -865,9 +865,9 @@
             this.checkBox21.AutoSize = true;
             this.checkBox21.Location = new System.Drawing.Point(232, 449);
             this.checkBox21.Name = "checkBox21";
-            this.checkBox21.Size = new System.Drawing.Size(61, 17);
+            this.checkBox21.Size = new System.Drawing.Size(233, 17);
             this.checkBox21.TabIndex = 98;
-            this.checkBox21.Text = "FEVER";
+            this.checkBox21.Text = "Reddish brown wart-like growth on the body";
             this.checkBox21.UseVisualStyleBackColor = true;
             // 
             // button28
@@ -884,9 +884,9 @@
             this.checkBox22.AutoSize = true;
             this.checkBox22.Location = new System.Drawing.Point(232, 426);
             this.checkBox22.Name = "checkBox22";
-            this.checkBox22.Size = new System.Drawing.Size(61, 17);
+            this.checkBox22.Size = new System.Drawing.Size(322, 17);
             this.checkBox22.TabIndex = 96;
-            this.checkBox22.Text = "FEVER";
+            this.checkBox22.Text = "Small reddish brown lesions (face, eyelid, nose, cheek and ear)";
             this.checkBox22.UseVisualStyleBackColor = true;
             // 
             // button29
@@ -903,9 +903,9 @@
             this.checkBox23.AutoSize = true;
             this.checkBox23.Location = new System.Drawing.Point(219, 391);
             this.checkBox23.Name = "checkBox23";
-            this.checkBox23.Size = new System.Drawing.Size(61, 17);
+            this.checkBox23.Size = new System.Drawing.Size(257, 17);
             this.checkBox23.TabIndex = 94;
-            this.checkBox23.Text = "FEVER";
+            this.checkBox23.Text = "Kernig & Brudzinski signs (Extend Knees with pain)";
             this.checkBox23.UseVisualStyleBackColor = true;
             // 
             // button30
@@ -922,9 +922,9 @@
             this.checkBox24.AutoSize = true;
             this.checkBox24.Location = new System.Drawing.Point(219, 361);
             this.checkBox24.Name = "checkBox24";
-            this.checkBox24.Size = new System.Drawing.Size(61, 17);
+            this.checkBox24.Size = new System.Drawing.Size(140, 17);
             this.checkBox24.TabIndex = 92;
-            this.checkBox24.Text = "FEVER";
+            this.checkBox24.Text = "RESTLESSNESS (high)";
             this.checkBox24.UseVisualStyleBackColor = true;
             // 
             // button31
@@ -941,9 +941,9 @@
             this.checkBox25.AutoSize = true;
             this.checkBox25.Location = new System.Drawing.Point(219, 328);
             this.checkBox25.Name = "checkBox25";
-            this.checkBox25.Size = new System.Drawing.Size(61, 17);
+            this.checkBox25.Size = new System.Drawing.Size(133, 17);
             this.checkBox25.TabIndex = 90;
-            this.checkBox25.Text = "FEVER";
+            this.checkBox25.Text = "PHOTOPHOBIC (high)";
             this.checkBox25.UseVisualStyleBackColor = true;
             // 
             // button32
@@ -960,9 +960,9 @@
             this.checkBox26.AutoSize = true;
             this.checkBox26.Location = new System.Drawing.Point(219, 290);
             this.checkBox26.Name = "checkBox26";
-            this.checkBox26.Size = new System.Drawing.Size(61, 17);
+            this.checkBox26.Size = new System.Drawing.Size(117, 17);
             this.checkBox26.TabIndex = 88;
-            this.checkBox26.Text = "FEVER";
+            this.checkBox26.Text = "PALE (Botchy skin)";
             this.checkBox26.UseVisualStyleBackColor = true;
             // 
             // button33
@@ -979,9 +979,9 @@
             this.checkBox27.AutoSize = true;
             this.checkBox27.Location = new System.Drawing.Point(219, 253);
             this.checkBox27.Name = "checkBox27";
-            this.checkBox27.Size = new System.Drawing.Size(61, 17);
+            this.checkBox27.Size = new System.Drawing.Size(124, 17);
             this.checkBox27.TabIndex = 86;
-            this.checkBox27.Text = "FEVER";
+            this.checkBox27.Text = "IRRITABILITY (high)";
             this.checkBox27.UseVisualStyleBackColor = true;
             // 
             // button34
@@ -998,9 +998,9 @@
             this.checkBox28.AutoSize = true;
             this.checkBox28.Location = new System.Drawing.Point(219, 212);
             this.checkBox28.Name = "checkBox28";
-            this.checkBox28.Size = new System.Drawing.Size(61, 17);
+            this.checkBox28.Size = new System.Drawing.Size(223, 17);
             this.checkBox28.TabIndex = 84;
-            this.checkBox28.Text = "FEVER";
+            this.checkBox28.Text = "LOSS OF APPETITE (poor appetite)(high)";
             this.checkBox28.UseVisualStyleBackColor = true;
             // 
             // button35
@@ -1017,9 +1017,9 @@
             this.checkBox29.AutoSize = true;
             this.checkBox29.Location = new System.Drawing.Point(222, 174);
             this.checkBox29.Name = "checkBox29";
-            this.checkBox29.Size = new System.Drawing.Size(61, 17);
+            this.checkBox29.Size = new System.Drawing.Size(126, 17);
             this.checkBox29.TabIndex = 82;
-            this.checkBox29.Text = "FEVER";
+            this.checkBox29.Text = "LOSS OF APPETITE";
             this.checkBox29.UseVisualStyleBackColor = true;
             // 
             // button36
@@ -1036,9 +1036,9 @@
             this.checkBox30.AutoSize = true;
             this.checkBox30.Location = new System.Drawing.Point(222, 144);
             this.checkBox30.Name = "checkBox30";
-            this.checkBox30.Size = new System.Drawing.Size(61, 17);
+            this.checkBox30.Size = new System.Drawing.Size(165, 17);
             this.checkBox30.TabIndex = 80;
-            this.checkBox30.Text = "FEVER";
+            this.checkBox30.Text = "DROWSINESS (Slugishness)";
             this.checkBox30.UseVisualStyleBackColor = true;
             // 
             // button37
@@ -1055,9 +1055,9 @@
             this.checkBox31.AutoSize = true;
             this.checkBox31.Location = new System.Drawing.Point(222, 111);
             this.checkBox31.Name = "checkBox31";
-            this.checkBox31.Size = new System.Drawing.Size(61, 17);
+            this.checkBox31.Size = new System.Drawing.Size(102, 17);
             this.checkBox31.TabIndex = 78;
-            this.checkBox31.Text = "FEVER";
+            this.checkBox31.Text = "SPOTS (rashes)";
             this.checkBox31.UseVisualStyleBackColor = true;
             // 
             // button38
@@ -1074,9 +1074,9 @@
             this.checkBox32.AutoSize = true;
             this.checkBox32.Location = new System.Drawing.Point(222, 73);
             this.checkBox32.Name = "checkBox32";
-            this.checkBox32.Size = new System.Drawing.Size(61, 17);
+            this.checkBox32.Size = new System.Drawing.Size(129, 17);
             this.checkBox32.TabIndex = 76;
-            this.checkBox32.Text = "FEVER";
+            this.checkBox32.Text = "COLD HANDS & FEET";
             this.checkBox32.UseVisualStyleBackColor = true;
             // 
             // button39
@@ -1093,9 +1093,9 @@
             this.checkBox33.AutoSize = true;
             this.checkBox33.Location = new System.Drawing.Point(222, 36);
             this.checkBox33.Name = "checkBox33";
-            this.checkBox33.Size = new System.Drawing.Size(61, 17);
+            this.checkBox33.Size = new System.Drawing.Size(104, 17);
             this.checkBox33.TabIndex = 74;
-            this.checkBox33.Text = "FEVER";
+            this.checkBox33.Text = "PHOTOPHOBIC";
             this.checkBox33.UseVisualStyleBackColor = true;
             // 
             // button40
@@ -1112,9 +1112,9 @@
             this.checkBox34.AutoSize = true;
             this.checkBox34.Location = new System.Drawing.Point(229, 650);
             this.checkBox34.Name = "checkBox34";
-            this.checkBox34.Size = new System.Drawing.Size(61, 17);
+            this.checkBox34.Size = new System.Drawing.Size(216, 17);
             this.checkBox34.TabIndex = 110;
-            this.checkBox34.Text = "FEVER";
+            this.checkBox34.Text = "Drowsiness (Unconsciousness) (Severe)";
             this.checkBox34.UseVisualStyleBackColor = true;
             // 
             // button41
@@ -1131,9 +1131,9 @@
             this.checkBox35.AutoSize = true;
             this.checkBox35.Location = new System.Drawing.Point(232, 615);
             this.checkBox35.Name = "checkBox35";
-            this.checkBox35.Size = new System.Drawing.Size(61, 17);
+            this.checkBox35.Size = new System.Drawing.Size(140, 17);
             this.checkBox35.TabIndex = 108;
-            this.checkBox35.Text = "FEVER";
+            this.checkBox35.Text = "Neck Stiffness in babies";
             this.checkBox35.UseVisualStyleBackColor = true;
             // 
             // button42
@@ -1150,9 +1150,9 @@
             this.checkBox36.AutoSize = true;
             this.checkBox36.Location = new System.Drawing.Point(232, 585);
             this.checkBox36.Name = "checkBox36";
-            this.checkBox36.Size = new System.Drawing.Size(61, 17);
+            this.checkBox36.Size = new System.Drawing.Size(121, 17);
             this.checkBox36.TabIndex = 106;
-            this.checkBox36.Text = "FEVER";
+            this.checkBox36.Text = "Cold hands and feet";
             this.checkBox36.UseVisualStyleBackColor = true;
             // 
             // button43
@@ -1169,9 +1169,9 @@
             this.checkBox37.AutoSize = true;
             this.checkBox37.Location = new System.Drawing.Point(232, 552);
             this.checkBox37.Name = "checkBox37";
-            this.checkBox37.Size = new System.Drawing.Size(61, 17);
+            this.checkBox37.Size = new System.Drawing.Size(117, 17);
             this.checkBox37.TabIndex = 104;
-            this.checkBox37.Text = "FEVER";
+            this.checkBox37.Text = "Waist pain (severe)";
             this.checkBox37.UseVisualStyleBackColor = true;
             // 
             // button44
@@ -1188,9 +1188,9 @@
             this.checkBox38.AutoSize = true;
             this.checkBox38.Location = new System.Drawing.Point(232, 514);
             this.checkBox38.Name = "checkBox38";
-            this.checkBox38.Size = new System.Drawing.Size(61, 17);
+            this.checkBox38.Size = new System.Drawing.Size(103, 17);
             this.checkBox38.TabIndex = 102;
-            this.checkBox38.Text = "FEVER";
+            this.checkBox38.Text = "Pyrexia (Severe)";
             this.checkBox38.UseVisualStyleBackColor = true;
             // 
             // button45
@@ -1207,9 +1207,9 @@
             this.checkBox39.AutoSize = true;
             this.checkBox39.Location = new System.Drawing.Point(232, 477);
             this.checkBox39.Name = "checkBox39";
-            this.checkBox39.Size = new System.Drawing.Size(61, 17);
+            this.checkBox39.Size = new System.Drawing.Size(249, 17);
             this.checkBox39.TabIndex = 100;
-            this.checkBox39.Text = "FEVER";
+            this.checkBox39.Text = "Spider like cobweb growth on the blood sample";
             this.checkBox39.UseVisualStyleBackColor = true;
             // 
             // button46
@@ -1224,11 +1224,11 @@
             // checkBox43
             // 
             this.checkBox43.AutoSize = true;
-            this.checkBox43.Location = new System.Drawing.Point(419, 418);
+            this.checkBox43.Location = new System.Drawing.Point(419, 414);
             this.checkBox43.Name = "checkBox43";
-            this.checkBox43.Size = new System.Drawing.Size(61, 17);
+            this.checkBox43.Size = new System.Drawing.Size(103, 17);
             this.checkBox43.TabIndex = 142;
-            this.checkBox43.Text = "FEVER";
+            this.checkBox43.Text = "Refusal of foods";
             this.checkBox43.UseVisualStyleBackColor = true;
             // 
             // button50
@@ -1245,9 +1245,9 @@
             this.checkBox44.AutoSize = true;
             this.checkBox44.Location = new System.Drawing.Point(419, 390);
             this.checkBox44.Name = "checkBox44";
-            this.checkBox44.Size = new System.Drawing.Size(61, 17);
+            this.checkBox44.Size = new System.Drawing.Size(170, 17);
             this.checkBox44.TabIndex = 140;
-            this.checkBox44.Text = "FEVER";
+            this.checkBox44.Text = "Uncontrollable crying in babies";
             this.checkBox44.UseVisualStyleBackColor = true;
             // 
             // button51
@@ -1264,9 +1264,9 @@
             this.checkBox45.AutoSize = true;
             this.checkBox45.Location = new System.Drawing.Point(428, 360);
             this.checkBox45.Name = "checkBox45";
-            this.checkBox45.Size = new System.Drawing.Size(61, 17);
+            this.checkBox45.Size = new System.Drawing.Size(165, 17);
             this.checkBox45.TabIndex = 138;
-            this.checkBox45.Text = "FEVER";
+            this.checkBox45.Text = "Papilledema signs is positive) ";
             this.checkBox45.UseVisualStyleBackColor = true;
             // 
             // button52
@@ -1283,9 +1283,9 @@
             this.checkBox46.AutoSize = true;
             this.checkBox46.Location = new System.Drawing.Point(431, 325);
             this.checkBox46.Name = "checkBox46";
-            this.checkBox46.Size = new System.Drawing.Size(61, 17);
+            this.checkBox46.Size = new System.Drawing.Size(177, 17);
             this.checkBox46.TabIndex = 136;
-            this.checkBox46.Text = "FEVER";
+            this.checkBox46.Text = "Positive Kernig & Brudzinski signs";
             this.checkBox46.UseVisualStyleBackColor = true;
             // 
             // button53
@@ -1302,9 +1302,9 @@
             this.checkBox47.AutoSize = true;
             this.checkBox47.Location = new System.Drawing.Point(431, 295);
             this.checkBox47.Name = "checkBox47";
-            this.checkBox47.Size = new System.Drawing.Size(61, 17);
+            this.checkBox47.Size = new System.Drawing.Size(132, 17);
             this.checkBox47.TabIndex = 134;
-            this.checkBox47.Text = "FEVER";
+            this.checkBox47.Text = "Sensorial disturbances";
             this.checkBox47.UseVisualStyleBackColor = true;
             // 
             // button54
@@ -1321,9 +1321,9 @@
             this.checkBox48.AutoSize = true;
             this.checkBox48.Location = new System.Drawing.Point(431, 262);
             this.checkBox48.Name = "checkBox48";
-            this.checkBox48.Size = new System.Drawing.Size(61, 17);
+            this.checkBox48.Size = new System.Drawing.Size(135, 17);
             this.checkBox48.TabIndex = 132;
-            this.checkBox48.Text = "FEVER";
+            this.checkBox48.Text = "Back stiffness (Severe)";
             this.checkBox48.UseVisualStyleBackColor = true;
             // 
             // button55
@@ -1340,9 +1340,9 @@
             this.checkBox49.AutoSize = true;
             this.checkBox49.Location = new System.Drawing.Point(431, 224);
             this.checkBox49.Name = "checkBox49";
-            this.checkBox49.Size = new System.Drawing.Size(61, 17);
+            this.checkBox49.Size = new System.Drawing.Size(96, 17);
             this.checkBox49.TabIndex = 130;
-            this.checkBox49.Text = "FEVER";
+            this.checkBox49.Text = "Fatigue (high)) ";
             this.checkBox49.UseVisualStyleBackColor = true;
             // 
             // button56
@@ -1359,9 +1359,9 @@
             this.checkBox50.AutoSize = true;
             this.checkBox50.Location = new System.Drawing.Point(431, 187);
             this.checkBox50.Name = "checkBox50";
-            this.checkBox50.Size = new System.Drawing.Size(61, 17);
+            this.checkBox50.Size = new System.Drawing.Size(119, 17);
             this.checkBox50.TabIndex = 128;
-            this.checkBox50.Text = "FEVER";
+            this.checkBox50.Text = "Chest pain (Severe)";
             this.checkBox50.UseVisualStyleBackColor = true;
             // 
             // button57
@@ -1378,9 +1378,9 @@
             this.checkBox51.AutoSize = true;
             this.checkBox51.Location = new System.Drawing.Point(431, 159);
             this.checkBox51.Name = "checkBox51";
-            this.checkBox51.Size = new System.Drawing.Size(61, 17);
+            this.checkBox51.Size = new System.Drawing.Size(177, 17);
             this.checkBox51.TabIndex = 126;
-            this.checkBox51.Text = "FEVER";
+            this.checkBox51.Text = "Hemoptysis (coughing up blood)";
             this.checkBox51.UseVisualStyleBackColor = true;
             // 
             // button58
@@ -1397,9 +1397,9 @@
             this.checkBox52.AutoSize = true;
             this.checkBox52.Location = new System.Drawing.Point(431, 136);
             this.checkBox52.Name = "checkBox52";
-            this.checkBox52.Size = new System.Drawing.Size(61, 17);
+            this.checkBox52.Size = new System.Drawing.Size(185, 17);
             this.checkBox52.TabIndex = 124;
-            this.checkBox52.Text = "FEVER";
+            this.checkBox52.Text = "Painful or uncomfortable Urination";
             this.checkBox52.UseVisualStyleBackColor = true;
             // 
             // button59
@@ -1416,9 +1416,9 @@
             this.checkBox53.AutoSize = true;
             this.checkBox53.Location = new System.Drawing.Point(434, 101);
             this.checkBox53.Name = "checkBox53";
-            this.checkBox53.Size = new System.Drawing.Size(61, 17);
+            this.checkBox53.Size = new System.Drawing.Size(130, 17);
             this.checkBox53.TabIndex = 122;
-            this.checkBox53.Text = "FEVER";
+            this.checkBox53.Text = "Blood present in Urine";
             this.checkBox53.UseVisualStyleBackColor = true;
             // 
             // button60
@@ -1433,11 +1433,11 @@
             // checkBox54
             // 
             this.checkBox54.AutoSize = true;
-            this.checkBox54.Location = new System.Drawing.Point(434, 71);
+            this.checkBox54.Location = new System.Drawing.Point(402, 71);
             this.checkBox54.Name = "checkBox54";
-            this.checkBox54.Size = new System.Drawing.Size(61, 17);
+            this.checkBox54.Size = new System.Drawing.Size(150, 17);
             this.checkBox54.TabIndex = 120;
-            this.checkBox54.Text = "FEVER";
+            this.checkBox54.Text = "Necrosis of infected Skin) ";
             this.checkBox54.UseVisualStyleBackColor = true;
             // 
             // button61
@@ -1452,11 +1452,11 @@
             // checkBox55
             // 
             this.checkBox55.AutoSize = true;
-            this.checkBox55.Location = new System.Drawing.Point(434, 38);
+            this.checkBox55.Location = new System.Drawing.Point(408, 38);
             this.checkBox55.Name = "checkBox55";
-            this.checkBox55.Size = new System.Drawing.Size(61, 17);
+            this.checkBox55.Size = new System.Drawing.Size(136, 17);
             this.checkBox55.TabIndex = 118;
-            this.checkBox55.Text = "FEVER";
+            this.checkBox55.Text = "Masses along the neck";
             this.checkBox55.UseVisualStyleBackColor = true;
             // 
             // button62
@@ -1473,9 +1473,9 @@
             this.checkBox58.AutoSize = true;
             this.checkBox58.Location = new System.Drawing.Point(416, 655);
             this.checkBox58.Name = "checkBox58";
-            this.checkBox58.Size = new System.Drawing.Size(61, 17);
+            this.checkBox58.Size = new System.Drawing.Size(184, 17);
             this.checkBox58.TabIndex = 158;
-            this.checkBox58.Text = "FEVER";
+            this.checkBox58.Text = "Purple spots (Rashes on the skin)";
             this.checkBox58.UseVisualStyleBackColor = true;
             // 
             // button65
@@ -1492,9 +1492,9 @@
             this.checkBox59.AutoSize = true;
             this.checkBox59.Location = new System.Drawing.Point(419, 620);
             this.checkBox59.Name = "checkBox59";
-            this.checkBox59.Size = new System.Drawing.Size(61, 17);
+            this.checkBox59.Size = new System.Drawing.Size(89, 17);
             this.checkBox59.TabIndex = 156;
-            this.checkBox59.Text = "FEVER";
+            this.checkBox59.Text = "Poor appetite";
             this.checkBox59.UseVisualStyleBackColor = true;
             // 
             // button66
@@ -1511,9 +1511,9 @@
             this.checkBox60.AutoSize = true;
             this.checkBox60.Location = new System.Drawing.Point(419, 590);
             this.checkBox60.Name = "checkBox60";
-            this.checkBox60.Size = new System.Drawing.Size(61, 17);
+            this.checkBox60.Size = new System.Drawing.Size(67, 17);
             this.checkBox60.TabIndex = 154;
-            this.checkBox60.Text = "FEVER";
+            this.checkBox60.Text = "Lethargy";
             this.checkBox60.UseVisualStyleBackColor = true;
             // 
             // button67
@@ -1530,9 +1530,9 @@
             this.checkBox61.AutoSize = true;
             this.checkBox61.Location = new System.Drawing.Point(419, 557);
             this.checkBox61.Name = "checkBox61";
-            this.checkBox61.Size = new System.Drawing.Size(61, 17);
+            this.checkBox61.Size = new System.Drawing.Size(111, 17);
             this.checkBox61.TabIndex = 152;
-            this.checkBox61.Text = "FEVER";
+            this.checkBox61.Text = "Insomnia (Severe)";
             this.checkBox61.UseVisualStyleBackColor = true;
             // 
             // button68
@@ -1549,9 +1549,9 @@
             this.checkBox62.AutoSize = true;
             this.checkBox62.Location = new System.Drawing.Point(419, 519);
             this.checkBox62.Name = "checkBox62";
-            this.checkBox62.Size = new System.Drawing.Size(61, 17);
+            this.checkBox62.Size = new System.Drawing.Size(116, 17);
             this.checkBox62.TabIndex = 150;
-            this.checkBox62.Text = "FEVER";
+            this.checkBox62.Text = "Anorexia is positive";
             this.checkBox62.UseVisualStyleBackColor = true;
             // 
             // button69
@@ -1568,9 +1568,9 @@
             this.checkBox63.AutoSize = true;
             this.checkBox63.Location = new System.Drawing.Point(419, 482);
             this.checkBox63.Name = "checkBox63";
-            this.checkBox63.Size = new System.Drawing.Size(61, 17);
+            this.checkBox63.Size = new System.Drawing.Size(117, 17);
             this.checkBox63.TabIndex = 148;
-            this.checkBox63.Text = "FEVER";
+            this.checkBox63.Text = "Restlessness (high)";
             this.checkBox63.UseVisualStyleBackColor = true;
             // 
             // button70
@@ -1587,9 +1587,9 @@
             this.checkBox64.AutoSize = true;
             this.checkBox64.Location = new System.Drawing.Point(419, 454);
             this.checkBox64.Name = "checkBox64";
-            this.checkBox64.Size = new System.Drawing.Size(61, 17);
+            this.checkBox64.Size = new System.Drawing.Size(163, 17);
             this.checkBox64.TabIndex = 146;
-            this.checkBox64.Text = "FEVER";
+            this.checkBox64.Text = "Bulging of the head in babies";
             this.checkBox64.UseVisualStyleBackColor = true;
             // 
             // button71
@@ -1606,9 +1606,9 @@
             this.checkBox65.AutoSize = true;
             this.checkBox65.Location = new System.Drawing.Point(419, 431);
             this.checkBox65.Name = "checkBox65";
-            this.checkBox65.Size = new System.Drawing.Size(61, 17);
+            this.checkBox65.Size = new System.Drawing.Size(103, 17);
             this.checkBox65.TabIndex = 144;
-            this.checkBox65.Text = "FEVER";
+            this.checkBox65.Text = "Pyrexia (Severe)";
             this.checkBox65.UseVisualStyleBackColor = true;
             // 
             // button72
@@ -1636,9 +1636,9 @@
             this.checkBox19.AutoSize = true;
             this.checkBox19.Location = new System.Drawing.Point(607, 226);
             this.checkBox19.Name = "checkBox19";
-            this.checkBox19.Size = new System.Drawing.Size(61, 17);
+            this.checkBox19.Size = new System.Drawing.Size(81, 17);
             this.checkBox19.TabIndex = 177;
-            this.checkBox19.Text = "FEVER";
+            this.checkBox19.Text = "Leg cramps";
             this.checkBox19.UseVisualStyleBackColor = true;
             // 
             // button26
@@ -1655,9 +1655,9 @@
             this.checkBox40.AutoSize = true;
             this.checkBox40.Location = new System.Drawing.Point(607, 189);
             this.checkBox40.Name = "checkBox40";
-            this.checkBox40.Size = new System.Drawing.Size(61, 17);
+            this.checkBox40.Size = new System.Drawing.Size(158, 17);
             this.checkBox40.TabIndex = 175;
-            this.checkBox40.Text = "FEVER";
+            this.checkBox40.Text = "Stomach cramps or diarrhea";
             this.checkBox40.UseVisualStyleBackColor = true;
             // 
             // button47
@@ -1674,9 +1674,9 @@
             this.checkBox41.AutoSize = true;
             this.checkBox41.Location = new System.Drawing.Point(607, 161);
             this.checkBox41.Name = "checkBox41";
-            this.checkBox41.Size = new System.Drawing.Size(61, 17);
+            this.checkBox41.Size = new System.Drawing.Size(200, 17);
             this.checkBox41.TabIndex = 173;
-            this.checkBox41.Text = "FEVER";
+            this.checkBox41.Text = "Baby is Rapidly breathing or Grunting";
             this.checkBox41.UseVisualStyleBackColor = true;
             // 
             // button48
@@ -1693,9 +1693,9 @@
             this.checkBox42.AutoSize = true;
             this.checkBox42.Location = new System.Drawing.Point(607, 138);
             this.checkBox42.Name = "checkBox42";
-            this.checkBox42.Size = new System.Drawing.Size(61, 17);
+            this.checkBox42.Size = new System.Drawing.Size(126, 17);
             this.checkBox42.TabIndex = 171;
-            this.checkBox42.Text = "FEVER";
+            this.checkBox42.Text = "Baby is unresponsive";
             this.checkBox42.UseVisualStyleBackColor = true;
             // 
             // button49
@@ -1712,9 +1712,9 @@
             this.checkBox56.AutoSize = true;
             this.checkBox56.Location = new System.Drawing.Point(610, 103);
             this.checkBox56.Name = "checkBox56";
-            this.checkBox56.Size = new System.Drawing.Size(61, 17);
+            this.checkBox56.Size = new System.Drawing.Size(136, 17);
             this.checkBox56.TabIndex = 169;
-            this.checkBox56.Text = "FEVER";
+            this.checkBox56.Text = "Baby is inactive or slow";
             this.checkBox56.UseVisualStyleBackColor = true;
             // 
             // button63
@@ -1731,9 +1731,9 @@
             this.checkBox57.AutoSize = true;
             this.checkBox57.Location = new System.Drawing.Point(610, 73);
             this.checkBox57.Name = "checkBox57";
-            this.checkBox57.Size = new System.Drawing.Size(61, 17);
+            this.checkBox57.Size = new System.Drawing.Size(124, 17);
             this.checkBox57.TabIndex = 167;
-            this.checkBox57.Text = "FEVER";
+            this.checkBox57.Text = "Breathing (Abnormal)";
             this.checkBox57.UseVisualStyleBackColor = true;
             // 
             // button64
@@ -1750,9 +1750,9 @@
             this.checkBox66.AutoSize = true;
             this.checkBox66.Location = new System.Drawing.Point(610, 40);
             this.checkBox66.Name = "checkBox66";
-            this.checkBox66.Size = new System.Drawing.Size(61, 17);
+            this.checkBox66.Size = new System.Drawing.Size(124, 17);
             this.checkBox66.TabIndex = 165;
-            this.checkBox66.Text = "FEVER";
+            this.checkBox66.Text = "Difficulty in breathing";
             this.checkBox66.UseVisualStyleBackColor = true;
             // 
             // button73
@@ -1769,9 +1769,9 @@
             this.checkBox67.AutoSize = true;
             this.checkBox67.Location = new System.Drawing.Point(607, 352);
             this.checkBox67.Name = "checkBox67";
-            this.checkBox67.Size = new System.Drawing.Size(61, 17);
+            this.checkBox67.Size = new System.Drawing.Size(88, 17);
             this.checkBox67.TabIndex = 185;
-            this.checkBox67.Text = "FEVER";
+            this.checkBox67.Text = "TWITCHING";
             this.checkBox67.UseVisualStyleBackColor = true;
             // 
             // button74
@@ -1788,9 +1788,9 @@
             this.checkBox68.AutoSize = true;
             this.checkBox68.Location = new System.Drawing.Point(607, 315);
             this.checkBox68.Name = "checkBox68";
-            this.checkBox68.Size = new System.Drawing.Size(61, 17);
+            this.checkBox68.Size = new System.Drawing.Size(116, 17);
             this.checkBox68.TabIndex = 183;
-            this.checkBox68.Text = "FEVER";
+            this.checkBox68.Text = "Confusion (Severe)";
             this.checkBox68.UseVisualStyleBackColor = true;
             // 
             // button75
@@ -1807,9 +1807,9 @@
             this.checkBox69.AutoSize = true;
             this.checkBox69.Location = new System.Drawing.Point(607, 287);
             this.checkBox69.Name = "checkBox69";
-            this.checkBox69.Size = new System.Drawing.Size(61, 17);
+            this.checkBox69.Size = new System.Drawing.Size(121, 17);
             this.checkBox69.TabIndex = 181;
-            this.checkBox69.Text = "FEVER";
+            this.checkBox69.Text = "Glass test is positive";
             this.checkBox69.UseVisualStyleBackColor = true;
             // 
             // button76
@@ -1826,9 +1826,9 @@
             this.checkBox70.AutoSize = true;
             this.checkBox70.Location = new System.Drawing.Point(607, 264);
             this.checkBox70.Name = "checkBox70";
-            this.checkBox70.Size = new System.Drawing.Size(61, 17);
+            this.checkBox70.Size = new System.Drawing.Size(163, 17);
             this.checkBox70.TabIndex = 179;
-            this.checkBox70.Text = "FEVER";
+            this.checkBox70.Text = "Generalized aches and pains";
             this.checkBox70.UseVisualStyleBackColor = true;
             // 
             // button77
