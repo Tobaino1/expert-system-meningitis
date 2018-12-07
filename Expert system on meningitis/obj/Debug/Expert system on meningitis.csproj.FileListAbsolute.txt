@@ -34,3 +34,4 @@ C:\Users\Administrator\Source\Repos\expert-system-meningitis\Expert system on me
 C:\Users\Administrator\Source\Repos\expert-system-meningitis\Expert system on meningitis\obj\Debug\Expert system on meningitis.csproj.CopyComplete
 C:\Users\Administrator\Source\Repos\expert-system-meningitis\Expert system on meningitis\obj\Debug\Expert system on meningitis.exe
 C:\Users\Administrator\Source\Repos\expert-system-meningitis\Expert system on meningitis\obj\Debug\Expert system on meningitis.pdb
+C:\Users\Administrator\Source\Repos\expert-system-meningitis\Expert system on meningitis\obj\Debug\Expert_system_on_meningitis.Form7.resources
