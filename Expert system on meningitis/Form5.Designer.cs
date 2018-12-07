@@ -288,8 +288,9 @@
             this.textBox3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox3.ForeColor = System.Drawing.Color.MediumVioletRed;
             this.textBox3.Location = new System.Drawing.Point(109, 157);
+            this.textBox3.MaxLength = 3;
             this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(59, 22);
+            this.textBox3.Size = new System.Drawing.Size(46, 22);
             this.textBox3.TabIndex = 21;
             // 
             // textBox2
@@ -305,7 +306,7 @@
             // textBox1
             // 
             this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.ForeColor = System.Drawing.Color.White;
+            this.textBox1.ForeColor = System.Drawing.Color.MediumVioletRed;
             this.textBox1.Location = new System.Drawing.Point(9, 37);
             this.textBox1.MaxLength = 100;
             this.textBox1.Name = "textBox1";
@@ -424,9 +425,9 @@
             this.gender,
             this.card_number,
             this.diagnosis_report});
-            this.dataGridView1.Location = new System.Drawing.Point(652, 473);
+            this.dataGridView1.Location = new System.Drawing.Point(656, 473);
             this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(683, 260);
+            this.dataGridView1.Size = new System.Drawing.Size(679, 260);
             this.dataGridView1.TabIndex = 29;
             this.dataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
             // 
@@ -1328,6 +1329,7 @@
             // 
             // button51
             // 
+            this.button51.ForeColor = System.Drawing.Color.Green;
             this.button51.Location = new System.Drawing.Point(628, 217);
             this.button51.Name = "button51";
             this.button51.Size = new System.Drawing.Size(75, 23);
@@ -1348,6 +1350,7 @@
             // 
             // button52
             // 
+            this.button52.ForeColor = System.Drawing.Color.Green;
             this.button52.Location = new System.Drawing.Point(627, 187);
             this.button52.Name = "button52";
             this.button52.Size = new System.Drawing.Size(75, 23);
