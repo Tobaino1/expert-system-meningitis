@@ -87,5 +87,10 @@ namespace Expert_system_on_meningitis
             this.Hide();
             myform.Show();
         }
+
+        private void checkedListBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+           
+        }
     }
 }
