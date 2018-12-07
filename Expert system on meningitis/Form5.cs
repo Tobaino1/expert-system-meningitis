@@ -129,5 +129,25 @@ namespace Expert_system_on_meningitis
             this.Hide();
             myform.Show();
         }
+
+        private void checkBox43_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void checkBox65_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox5_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void checkBox34_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
