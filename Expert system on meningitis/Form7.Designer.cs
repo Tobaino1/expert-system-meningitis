@@ -293,7 +293,7 @@
             // 
             // button8
             // 
-            this.button8.Location = new System.Drawing.Point(441, 508);
+            this.button8.Location = new System.Drawing.Point(311, 508);
             this.button8.Name = "button8";
             this.button8.Size = new System.Drawing.Size(75, 23);
             this.button8.TabIndex = 202;
@@ -303,7 +303,7 @@
             // 
             // button7
             // 
-            this.button7.Location = new System.Drawing.Point(119, 508);
+            this.button7.Location = new System.Drawing.Point(54, 508);
             this.button7.Name = "button7";
             this.button7.Size = new System.Drawing.Size(75, 23);
             this.button7.TabIndex = 201;
@@ -313,7 +313,7 @@
             // 
             // button6
             // 
-            this.button6.Location = new System.Drawing.Point(251, 508);
+            this.button6.Location = new System.Drawing.Point(186, 508);
             this.button6.Name = "button6";
             this.button6.Size = new System.Drawing.Size(75, 23);
             this.button6.TabIndex = 200;
@@ -339,16 +339,17 @@
             this.label9.ForeColor = System.Drawing.Color.DarkMagenta;
             this.label9.Location = new System.Drawing.Point(12, 469);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(423, 15);
+            this.label9.Size = new System.Drawing.Size(488, 15);
             this.label9.TabIndex = 204;
-            this.label9.Text = "Insert the patient\'s card number in the Text Box for deleting/updating process";
+            this.label9.Text = "Insert the patient\'s card number in the Text Box for deleting/updating, deleting " +
+    "operations";
             // 
             // textBox5
             // 
             this.textBox5.BackColor = System.Drawing.SystemColors.InactiveBorder;
             this.textBox5.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox5.ForeColor = System.Drawing.Color.MediumVioletRed;
-            this.textBox5.Location = new System.Drawing.Point(441, 469);
+            this.textBox5.Location = new System.Drawing.Point(506, 469);
             this.textBox5.MaxLength = 7;
             this.textBox5.Name = "textBox5";
             this.textBox5.Size = new System.Drawing.Size(76, 22);

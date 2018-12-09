@@ -173,6 +173,7 @@
             this.checkedListBox1 = new System.Windows.Forms.CheckedListBox();
             this.button30 = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
+            this.button5 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -247,12 +248,13 @@
             // button9
             // 
             this.button9.ForeColor = System.Drawing.Color.Red;
-            this.button9.Location = new System.Drawing.Point(185, 108);
+            this.button9.Location = new System.Drawing.Point(185, 109);
             this.button9.Name = "button9";
             this.button9.Size = new System.Drawing.Size(75, 23);
             this.button9.TabIndex = 35;
             this.button9.Text = "DIAGNOSE";
             this.button9.UseVisualStyleBackColor = true;
+            this.button9.Click += new System.EventHandler(this.button9_Click);
             // 
             // checkBox3
             // 
@@ -274,6 +276,7 @@
             this.button10.TabIndex = 37;
             this.button10.Text = "DIAGNOSE";
             this.button10.UseVisualStyleBackColor = true;
+            this.button10.Click += new System.EventHandler(this.button10_Click);
             // 
             // checkBox4
             // 
@@ -295,6 +298,7 @@
             this.button11.TabIndex = 39;
             this.button11.Text = "DIAGNOSE";
             this.button11.UseVisualStyleBackColor = true;
+            this.button11.Click += new System.EventHandler(this.button11_Click);
             // 
             // checkBox5
             // 
@@ -316,6 +320,7 @@
             this.button12.TabIndex = 41;
             this.button12.Text = "DIAGNOSE";
             this.button12.UseVisualStyleBackColor = true;
+            this.button12.Click += new System.EventHandler(this.button12_Click);
             // 
             // checkBox6
             // 
@@ -337,6 +342,7 @@
             this.button13.TabIndex = 43;
             this.button13.Text = "DIAGNOSE";
             this.button13.UseVisualStyleBackColor = true;
+            this.button13.Click += new System.EventHandler(this.button13_Click);
             // 
             // checkBox7
             // 
@@ -358,6 +364,7 @@
             this.button14.TabIndex = 55;
             this.button14.Text = "DIAGNOSE";
             this.button14.UseVisualStyleBackColor = true;
+            this.button14.Click += new System.EventHandler(this.button14_Click);
             // 
             // checkBox8
             // 
@@ -400,6 +407,7 @@
             this.button16.TabIndex = 51;
             this.button16.Text = "DIAGNOSE";
             this.button16.UseVisualStyleBackColor = true;
+            this.button16.Click += new System.EventHandler(this.button16_Click);
             // 
             // checkBox10
             // 
@@ -421,12 +429,13 @@
             this.button17.TabIndex = 49;
             this.button17.Text = "DIAGNOSE";
             this.button17.UseVisualStyleBackColor = true;
+            this.button17.Click += new System.EventHandler(this.button17_Click);
             // 
             // checkBox11
             // 
             this.checkBox11.AutoSize = true;
             this.checkBox11.ForeColor = System.Drawing.Color.Red;
-            this.checkBox11.Location = new System.Drawing.Point(22, 280);
+            this.checkBox11.Location = new System.Drawing.Point(22, 287);
             this.checkBox11.Name = "checkBox11";
             this.checkBox11.Size = new System.Drawing.Size(85, 17);
             this.checkBox11.TabIndex = 48;
@@ -442,6 +451,7 @@
             this.button18.TabIndex = 47;
             this.button18.Text = "DIAGNOSE";
             this.button18.UseVisualStyleBackColor = true;
+            this.button18.Click += new System.EventHandler(this.button18_Click);
             // 
             // checkBox12
             // 
@@ -463,6 +473,7 @@
             this.button19.TabIndex = 45;
             this.button19.Text = "DIAGNOSE";
             this.button19.UseVisualStyleBackColor = true;
+            this.button19.Click += new System.EventHandler(this.button19_Click);
             // 
             // checkBox13
             // 
@@ -484,6 +495,7 @@
             this.button20.TabIndex = 67;
             this.button20.Text = "DIAGNOSE";
             this.button20.UseVisualStyleBackColor = true;
+            this.button20.Click += new System.EventHandler(this.button20_Click);
             // 
             // checkBox14
             // 
@@ -505,6 +517,7 @@
             this.button21.TabIndex = 65;
             this.button21.Text = "DIAGNOSE";
             this.button21.UseVisualStyleBackColor = true;
+            this.button21.Click += new System.EventHandler(this.button21_Click);
             // 
             // checkBox15
             // 
@@ -526,6 +539,7 @@
             this.button22.TabIndex = 63;
             this.button22.Text = "DIAGNOSE";
             this.button22.UseVisualStyleBackColor = true;
+            this.button22.Click += new System.EventHandler(this.button22_Click);
             // 
             // checkBox16
             // 
@@ -547,12 +561,13 @@
             this.button23.TabIndex = 61;
             this.button23.Text = "DIAGNOSE";
             this.button23.UseVisualStyleBackColor = true;
+            this.button23.Click += new System.EventHandler(this.button23_Click);
             // 
             // checkBox17
             // 
             this.checkBox17.AutoSize = true;
             this.checkBox17.ForeColor = System.Drawing.Color.Red;
-            this.checkBox17.Location = new System.Drawing.Point(22, 430);
+            this.checkBox17.Location = new System.Drawing.Point(22, 433);
             this.checkBox17.Name = "checkBox17";
             this.checkBox17.Size = new System.Drawing.Size(134, 17);
             this.checkBox17.TabIndex = 60;
@@ -568,12 +583,13 @@
             this.button24.TabIndex = 59;
             this.button24.Text = "DIAGNOSE";
             this.button24.UseVisualStyleBackColor = true;
+            this.button24.Click += new System.EventHandler(this.button24_Click);
             // 
             // checkBox18
             // 
             this.checkBox18.AutoSize = true;
             this.checkBox18.ForeColor = System.Drawing.Color.Red;
-            this.checkBox18.Location = new System.Drawing.Point(23, 401);
+            this.checkBox18.Location = new System.Drawing.Point(23, 404);
             this.checkBox18.Name = "checkBox18";
             this.checkBox18.Size = new System.Drawing.Size(114, 17);
             this.checkBox18.TabIndex = 58;
@@ -589,6 +605,7 @@
             this.button25.TabIndex = 57;
             this.button25.Text = "DIAGNOSE";
             this.button25.UseVisualStyleBackColor = true;
+            this.button25.Click += new System.EventHandler(this.button25_Click);
             // 
             // checkBox20
             // 
@@ -610,6 +627,7 @@
             this.button27.TabIndex = 69;
             this.button27.Text = "DIAGNOSE";
             this.button27.UseVisualStyleBackColor = true;
+            this.button27.Click += new System.EventHandler(this.button27_Click);
             // 
             // checkBox21
             // 
@@ -1685,9 +1703,9 @@
             "Poultry workers & Transmission Listeriosis",
             "Head injuries & Brain injuries",
             "Suppressed immune system"});
-            this.checkedListBox1.Location = new System.Drawing.Point(659, 36);
+            this.checkedListBox1.Location = new System.Drawing.Point(464, 42);
             this.checkedListBox1.Name = "checkedListBox1";
-            this.checkedListBox1.Size = new System.Drawing.Size(335, 19);
+            this.checkedListBox1.Size = new System.Drawing.Size(351, 19);
             this.checkedListBox1.TabIndex = 199;
             this.checkedListBox1.SelectedIndexChanged += new System.EventHandler(this.checkedListBox1_SelectedIndexChanged);
             // 
@@ -1713,11 +1731,24 @@
             this.button4.UseVisualStyleBackColor = true;
             this.button4.Click += new System.EventHandler(this.button4_Click_1);
             // 
+            // button5
+            // 
+            this.button5.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button5.ForeColor = System.Drawing.Color.DarkViolet;
+            this.button5.Location = new System.Drawing.Point(829, 42);
+            this.button5.Name = "button5";
+            this.button5.Size = new System.Drawing.Size(85, 28);
+            this.button5.TabIndex = 201;
+            this.button5.Text = "COMPUTE";
+            this.button5.UseVisualStyleBackColor = true;
+            this.button5.Click += new System.EventHandler(this.button5_Click);
+            // 
             // Form5
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1354, 733);
+            this.Controls.Add(this.button5);
             this.Controls.Add(this.button4);
             this.Controls.Add(this.checkedListBox1);
             this.Controls.Add(this.checkBox67);
@@ -2018,5 +2049,6 @@
         private System.Windows.Forms.CheckedListBox checkedListBox1;
         private System.Windows.Forms.Button button30;
         private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.Button button5;
     }
 }

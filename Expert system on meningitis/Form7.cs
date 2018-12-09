@@ -90,7 +90,7 @@ namespace Expert_system_on_meningitis
         }
 
         private void button8_Click(object sender, EventArgs e)
--        {
+        {
             Form7 myform = new Form7();
             this.Hide();
             myform.Show();
