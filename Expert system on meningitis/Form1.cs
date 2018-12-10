@@ -51,6 +51,17 @@ namespace Expert_system_on_meningitis
 
         private void button1_Click(object sender, EventArgs e)
         {
+            if (textBox1.Text == string.Empty)
+            {
+                MessageBox.Show("field can't be empty, please enter a value");
+                return;
+            }
+           if (textBox2.Text == string.Empty)
+            {
+                MessageBox.Show("field can't be empty, please enter a value");
+                return;
+            }
+
             i = 0;
             con.Open();
             MySqlCommand cmd = new MySqlCommand("select * from user WHERE username = '" + textBox1.Text + "' AND password = '" + textBox2.Text + "'", con);

@@ -386,6 +386,7 @@
             this.button15.TabIndex = 53;
             this.button15.Text = "DIAGNOSE";
             this.button15.UseVisualStyleBackColor = true;
+            this.button15.Click += new System.EventHandler(this.button15_Click);
             // 
             // checkBox9
             // 
@@ -649,6 +650,7 @@
             this.button28.TabIndex = 97;
             this.button28.Text = "DIAGNOSE";
             this.button28.UseVisualStyleBackColor = true;
+            this.button28.Click += new System.EventHandler(this.button28_Click);
             // 
             // checkBox22
             // 
@@ -670,6 +672,7 @@
             this.button29.TabIndex = 95;
             this.button29.Text = "DIAGNOSE";
             this.button29.UseVisualStyleBackColor = true;
+            this.button29.Click += new System.EventHandler(this.button29_Click);
             // 
             // checkBox23
             // 
@@ -677,9 +680,9 @@
             this.checkBox23.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
             this.checkBox23.Location = new System.Drawing.Point(978, 320);
             this.checkBox23.Name = "checkBox23";
-            this.checkBox23.Size = new System.Drawing.Size(257, 17);
+            this.checkBox23.Size = new System.Drawing.Size(275, 17);
             this.checkBox23.TabIndex = 94;
-            this.checkBox23.Text = "Kernig & Brudzinski signs (Extend Knees with pain)";
+            this.checkBox23.Text = "Kernig and Brudzinski signs (Extend Knees with pain)";
             this.checkBox23.UseVisualStyleBackColor = true;
             // 
             // checkBox24
@@ -702,6 +705,7 @@
             this.button31.TabIndex = 91;
             this.button31.Text = "DIAGNOSE";
             this.button31.UseVisualStyleBackColor = true;
+            this.button31.Click += new System.EventHandler(this.button31_Click);
             // 
             // checkBox25
             // 
@@ -723,6 +727,7 @@
             this.button32.TabIndex = 89;
             this.button32.Text = "DIAGNOSE";
             this.button32.UseVisualStyleBackColor = true;
+            this.button32.Click += new System.EventHandler(this.button32_Click);
             // 
             // checkBox26
             // 
@@ -744,6 +749,7 @@
             this.button33.TabIndex = 87;
             this.button33.Text = "DIAGNOSE";
             this.button33.UseVisualStyleBackColor = true;
+            this.button33.Click += new System.EventHandler(this.button33_Click);
             // 
             // checkBox27
             // 
@@ -765,6 +771,7 @@
             this.button34.TabIndex = 85;
             this.button34.Text = "DIAGNOSE";
             this.button34.UseVisualStyleBackColor = true;
+            this.button34.Click += new System.EventHandler(this.button34_Click);
             // 
             // checkBox28
             // 
@@ -786,6 +793,7 @@
             this.button35.TabIndex = 83;
             this.button35.Text = "DIAGNOSE";
             this.button35.UseVisualStyleBackColor = true;
+            this.button35.Click += new System.EventHandler(this.button35_Click);
             // 
             // checkBox29
             // 
@@ -801,12 +809,13 @@
             // button36
             // 
             this.button36.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
-            this.button36.Location = new System.Drawing.Point(520, 202);
+            this.button36.Location = new System.Drawing.Point(519, 206);
             this.button36.Name = "button36";
             this.button36.Size = new System.Drawing.Size(75, 23);
             this.button36.TabIndex = 81;
             this.button36.Text = "DIAGNOSE";
             this.button36.UseVisualStyleBackColor = true;
+            this.button36.Click += new System.EventHandler(this.button36_Click);
             // 
             // checkBox30
             // 
@@ -828,6 +837,7 @@
             this.button37.TabIndex = 79;
             this.button37.Text = "DIAGNOSE";
             this.button37.UseVisualStyleBackColor = true;
+            this.button37.Click += new System.EventHandler(this.button37_Click);
             // 
             // checkBox31
             // 
@@ -849,6 +859,7 @@
             this.button38.TabIndex = 77;
             this.button38.Text = "DIAGNOSE";
             this.button38.UseVisualStyleBackColor = true;
+            this.button38.Click += new System.EventHandler(this.button38_Click);
             // 
             // checkBox32
             // 
@@ -856,9 +867,9 @@
             this.checkBox32.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
             this.checkBox32.Location = new System.Drawing.Point(311, 151);
             this.checkBox32.Name = "checkBox32";
-            this.checkBox32.Size = new System.Drawing.Size(129, 17);
+            this.checkBox32.Size = new System.Drawing.Size(152, 17);
             this.checkBox32.TabIndex = 76;
-            this.checkBox32.Text = "COLD HANDS & FEET";
+            this.checkBox32.Text = "COLD HANDS AND FEET";
             this.checkBox32.UseVisualStyleBackColor = true;
             // 
             // button39
@@ -870,6 +881,7 @@
             this.button39.TabIndex = 75;
             this.button39.Text = "DIAGNOSE";
             this.button39.UseVisualStyleBackColor = true;
+            this.button39.Click += new System.EventHandler(this.button39_Click);
             // 
             // checkBox33
             // 
@@ -891,6 +903,7 @@
             this.button40.TabIndex = 73;
             this.button40.Text = "DIAGNOSE";
             this.button40.UseVisualStyleBackColor = true;
+            this.button40.Click += new System.EventHandler(this.button40_Click);
             // 
             // checkBox34
             // 
@@ -913,6 +926,7 @@
             this.button41.TabIndex = 109;
             this.button41.Text = "DIAGNOSE";
             this.button41.UseVisualStyleBackColor = true;
+            this.button41.Click += new System.EventHandler(this.button41_Click);
             // 
             // checkBox35
             // 
@@ -934,6 +948,7 @@
             this.button42.TabIndex = 107;
             this.button42.Text = "DIAGNOSE";
             this.button42.UseVisualStyleBackColor = true;
+            this.button42.Click += new System.EventHandler(this.button42_Click);
             // 
             // checkBox36
             // 
@@ -955,12 +970,13 @@
             this.button43.TabIndex = 105;
             this.button43.Text = "DIAGNOSE";
             this.button43.UseVisualStyleBackColor = true;
+            this.button43.Click += new System.EventHandler(this.button43_Click);
             // 
             // checkBox37
             // 
             this.checkBox37.AutoSize = true;
             this.checkBox37.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
-            this.checkBox37.Location = new System.Drawing.Point(311, 385);
+            this.checkBox37.Location = new System.Drawing.Point(311, 383);
             this.checkBox37.Name = "checkBox37";
             this.checkBox37.Size = new System.Drawing.Size(117, 17);
             this.checkBox37.TabIndex = 104;
@@ -976,6 +992,7 @@
             this.button44.TabIndex = 103;
             this.button44.Text = "DIAGNOSE";
             this.button44.UseVisualStyleBackColor = true;
+            this.button44.Click += new System.EventHandler(this.button44_Click);
             // 
             // checkBox38
             // 
@@ -997,6 +1014,7 @@
             this.button45.TabIndex = 101;
             this.button45.Text = "DIAGNOSE";
             this.button45.UseVisualStyleBackColor = true;
+            this.button45.Click += new System.EventHandler(this.button45_Click);
             // 
             // checkBox39
             // 
@@ -1012,12 +1030,13 @@
             // button46
             // 
             this.button46.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
-            this.button46.Location = new System.Drawing.Point(1252, 218);
+            this.button46.Location = new System.Drawing.Point(1252, 215);
             this.button46.Name = "button46";
             this.button46.Size = new System.Drawing.Size(75, 23);
             this.button46.TabIndex = 99;
             this.button46.Text = "DIAGNOSE";
             this.button46.UseVisualStyleBackColor = true;
+            this.button46.Click += new System.EventHandler(this.button46_Click);
             // 
             // checkBox43
             // 
@@ -1040,6 +1059,7 @@
             this.button50.TabIndex = 141;
             this.button50.Text = "DIAGNOSE";
             this.button50.UseVisualStyleBackColor = true;
+            this.button50.Click += new System.EventHandler(this.button50_Click);
             // 
             // checkBox44
             // 
@@ -1061,6 +1081,7 @@
             this.button51.TabIndex = 139;
             this.button51.Text = "DIAGNOSE";
             this.button51.UseVisualStyleBackColor = true;
+            this.button51.Click += new System.EventHandler(this.button51_Click);
             // 
             // checkBox45
             // 
@@ -1068,30 +1089,31 @@
             this.checkBox45.ForeColor = System.Drawing.Color.Green;
             this.checkBox45.Location = new System.Drawing.Point(663, 242);
             this.checkBox45.Name = "checkBox45";
-            this.checkBox45.Size = new System.Drawing.Size(165, 17);
+            this.checkBox45.Size = new System.Drawing.Size(159, 17);
             this.checkBox45.TabIndex = 138;
-            this.checkBox45.Text = "Papilledema signs is positive) ";
+            this.checkBox45.Text = "Papilledema signs is positive";
             this.checkBox45.UseVisualStyleBackColor = true;
             // 
             // button52
             // 
             this.button52.ForeColor = System.Drawing.Color.Green;
-            this.button52.Location = new System.Drawing.Point(849, 236);
+            this.button52.Location = new System.Drawing.Point(850, 238);
             this.button52.Name = "button52";
             this.button52.Size = new System.Drawing.Size(75, 23);
             this.button52.TabIndex = 137;
             this.button52.Text = "DIAGNOSE";
             this.button52.UseVisualStyleBackColor = true;
+            this.button52.Click += new System.EventHandler(this.button52_Click);
             // 
             // checkBox46
             // 
             this.checkBox46.AutoSize = true;
             this.checkBox46.ForeColor = System.Drawing.Color.Green;
-            this.checkBox46.Location = new System.Drawing.Point(663, 212);
+            this.checkBox46.Location = new System.Drawing.Point(655, 212);
             this.checkBox46.Name = "checkBox46";
-            this.checkBox46.Size = new System.Drawing.Size(177, 17);
+            this.checkBox46.Size = new System.Drawing.Size(195, 17);
             this.checkBox46.TabIndex = 136;
-            this.checkBox46.Text = "Positive Kernig & Brudzinski signs";
+            this.checkBox46.Text = "Positive Kernig and Brudzinski signs";
             this.checkBox46.UseVisualStyleBackColor = true;
             // 
             // button53
@@ -1103,12 +1125,13 @@
             this.button53.TabIndex = 135;
             this.button53.Text = "DIAGNOSE";
             this.button53.UseVisualStyleBackColor = true;
+            this.button53.Click += new System.EventHandler(this.button53_Click);
             // 
             // checkBox47
             // 
             this.checkBox47.AutoSize = true;
             this.checkBox47.ForeColor = System.Drawing.Color.Blue;
-            this.checkBox47.Location = new System.Drawing.Point(976, 414);
+            this.checkBox47.Location = new System.Drawing.Point(976, 412);
             this.checkBox47.Name = "checkBox47";
             this.checkBox47.Size = new System.Drawing.Size(132, 17);
             this.checkBox47.TabIndex = 134;
@@ -1124,6 +1147,7 @@
             this.button54.TabIndex = 133;
             this.button54.Text = "DIAGNOSE";
             this.button54.UseVisualStyleBackColor = true;
+            this.button54.Click += new System.EventHandler(this.button54_Click);
             // 
             // checkBox48
             // 
@@ -1145,6 +1169,7 @@
             this.button55.TabIndex = 131;
             this.button55.Text = "DIAGNOSE";
             this.button55.UseVisualStyleBackColor = true;
+            this.button55.Click += new System.EventHandler(this.button55_Click);
             // 
             // checkBox49
             // 
@@ -1166,6 +1191,7 @@
             this.button56.TabIndex = 129;
             this.button56.Text = "DIAGNOSE";
             this.button56.UseVisualStyleBackColor = true;
+            this.button56.Click += new System.EventHandler(this.button56_Click);
             // 
             // checkBox50
             // 
@@ -1187,6 +1213,7 @@
             this.button57.TabIndex = 127;
             this.button57.Text = "DIAGNOSE";
             this.button57.UseVisualStyleBackColor = true;
+            this.button57.Click += new System.EventHandler(this.button57_Click);
             // 
             // checkBox51
             // 
@@ -1208,6 +1235,7 @@
             this.button58.TabIndex = 125;
             this.button58.Text = "DIAGNOSE";
             this.button58.UseVisualStyleBackColor = true;
+            this.button58.Click += new System.EventHandler(this.button58_Click);
             // 
             // checkBox52
             // 
@@ -1229,6 +1257,7 @@
             this.button59.TabIndex = 123;
             this.button59.Text = "DIAGNOSE";
             this.button59.UseVisualStyleBackColor = true;
+            this.button59.Click += new System.EventHandler(this.button59_Click);
             // 
             // checkBox53
             // 
@@ -1250,6 +1279,7 @@
             this.button60.TabIndex = 121;
             this.button60.Text = "DIAGNOSE";
             this.button60.UseVisualStyleBackColor = true;
+            this.button60.Click += new System.EventHandler(this.button60_Click);
             // 
             // checkBox54
             // 
@@ -1257,9 +1287,9 @@
             this.checkBox54.ForeColor = System.Drawing.Color.Blue;
             this.checkBox54.Location = new System.Drawing.Point(665, 581);
             this.checkBox54.Name = "checkBox54";
-            this.checkBox54.Size = new System.Drawing.Size(150, 17);
+            this.checkBox54.Size = new System.Drawing.Size(144, 17);
             this.checkBox54.TabIndex = 120;
-            this.checkBox54.Text = "Necrosis of infected Skin) ";
+            this.checkBox54.Text = "Necrosis of infected Skin";
             this.checkBox54.UseVisualStyleBackColor = true;
             // 
             // button61
@@ -1271,6 +1301,7 @@
             this.button61.TabIndex = 119;
             this.button61.Text = "DIAGNOSE";
             this.button61.UseVisualStyleBackColor = true;
+            this.button61.Click += new System.EventHandler(this.button61_Click);
             // 
             // checkBox55
             // 
@@ -1292,6 +1323,7 @@
             this.button62.TabIndex = 117;
             this.button62.Text = "DIAGNOSE";
             this.button62.UseVisualStyleBackColor = true;
+            this.button62.Click += new System.EventHandler(this.button62_Click);
             // 
             // checkBox58
             // 
@@ -1313,6 +1345,7 @@
             this.button65.TabIndex = 157;
             this.button65.Text = "DIAGNOSE";
             this.button65.UseVisualStyleBackColor = true;
+            this.button65.Click += new System.EventHandler(this.button65_Click);
             // 
             // checkBox59
             // 
@@ -1334,6 +1367,7 @@
             this.button66.TabIndex = 155;
             this.button66.Text = "DIAGNOSE";
             this.button66.UseVisualStyleBackColor = true;
+            this.button66.Click += new System.EventHandler(this.button66_Click);
             // 
             // checkBox60
             // 
@@ -1355,6 +1389,7 @@
             this.button67.TabIndex = 153;
             this.button67.Text = "DIAGNOSE";
             this.button67.UseVisualStyleBackColor = true;
+            this.button67.Click += new System.EventHandler(this.button67_Click);
             // 
             // checkBox61
             // 
@@ -1376,6 +1411,7 @@
             this.button68.TabIndex = 151;
             this.button68.Text = "DIAGNOSE";
             this.button68.UseVisualStyleBackColor = true;
+            this.button68.Click += new System.EventHandler(this.button68_Click);
             // 
             // checkBox62
             // 
@@ -1397,6 +1433,7 @@
             this.button69.TabIndex = 149;
             this.button69.Text = "DIAGNOSE";
             this.button69.UseVisualStyleBackColor = true;
+            this.button69.Click += new System.EventHandler(this.button69_Click);
             // 
             // checkBox63
             // 
@@ -1418,6 +1455,7 @@
             this.button70.TabIndex = 147;
             this.button70.Text = "DIAGNOSE";
             this.button70.UseVisualStyleBackColor = true;
+            this.button70.Click += new System.EventHandler(this.button70_Click);
             // 
             // checkBox64
             // 
@@ -1439,6 +1477,7 @@
             this.button71.TabIndex = 145;
             this.button71.Text = "DIAGNOSE";
             this.button71.UseVisualStyleBackColor = true;
+            this.button71.Click += new System.EventHandler(this.button71_Click);
             // 
             // checkBox65
             // 
@@ -1461,6 +1500,7 @@
             this.button72.TabIndex = 143;
             this.button72.Text = "DIAGNOSE";
             this.button72.UseVisualStyleBackColor = true;
+            this.button72.Click += new System.EventHandler(this.button72_Click);
             // 
             // checkBox41
             // 
@@ -1476,12 +1516,13 @@
             // button48
             // 
             this.button48.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
-            this.button48.Location = new System.Drawing.Point(1252, 123);
+            this.button48.Location = new System.Drawing.Point(1252, 121);
             this.button48.Name = "button48";
             this.button48.Size = new System.Drawing.Size(75, 23);
             this.button48.TabIndex = 172;
             this.button48.Text = "DIAGNOSE";
             this.button48.UseVisualStyleBackColor = true;
+            this.button48.Click += new System.EventHandler(this.button48_Click);
             // 
             // checkBox42
             // 
@@ -1503,6 +1544,7 @@
             this.button49.TabIndex = 170;
             this.button49.Text = "DIAGNOSE";
             this.button49.UseVisualStyleBackColor = true;
+            this.button49.Click += new System.EventHandler(this.button49_Click);
             // 
             // checkBox56
             // 
@@ -1524,6 +1566,7 @@
             this.button63.TabIndex = 168;
             this.button63.Text = "DIAGNOSE";
             this.button63.UseVisualStyleBackColor = true;
+            this.button63.Click += new System.EventHandler(this.button63_Click);
             // 
             // checkBox57
             // 
@@ -1545,6 +1588,7 @@
             this.button64.TabIndex = 166;
             this.button64.Text = "DIAGNOSE";
             this.button64.UseVisualStyleBackColor = true;
+            this.button64.Click += new System.EventHandler(this.button64_Click);
             // 
             // checkBox66
             // 
@@ -1566,6 +1610,7 @@
             this.button73.TabIndex = 164;
             this.button73.Text = "DIAGNOSE";
             this.button73.UseVisualStyleBackColor = true;
+            this.button73.Click += new System.EventHandler(this.button73_Click);
             // 
             // checkBox67
             // 
@@ -1587,6 +1632,7 @@
             this.button74.TabIndex = 196;
             this.button74.Text = "DIAGNOSE";
             this.button74.UseVisualStyleBackColor = true;
+            this.button74.Click += new System.EventHandler(this.button74_Click);
             // 
             // checkBox68
             // 
@@ -1608,6 +1654,7 @@
             this.button75.TabIndex = 194;
             this.button75.Text = "DIAGNOSE";
             this.button75.UseVisualStyleBackColor = true;
+            this.button75.Click += new System.EventHandler(this.button75_Click);
             // 
             // checkBox69
             // 
@@ -1629,6 +1676,7 @@
             this.button76.TabIndex = 192;
             this.button76.Text = "DIAGNOSE";
             this.button76.UseVisualStyleBackColor = true;
+            this.button76.Click += new System.EventHandler(this.button76_Click);
             // 
             // checkBox70
             // 
@@ -1650,6 +1698,7 @@
             this.button77.TabIndex = 190;
             this.button77.Text = "DIAGNOSE";
             this.button77.UseVisualStyleBackColor = true;
+            this.button77.Click += new System.EventHandler(this.button77_Click);
             // 
             // checkBox19
             // 
@@ -1671,6 +1720,7 @@
             this.button26.TabIndex = 188;
             this.button26.Text = "DIAGNOSE";
             this.button26.UseVisualStyleBackColor = true;
+            this.button26.Click += new System.EventHandler(this.button26_Click);
             // 
             // checkBox40
             // 
@@ -1692,6 +1742,7 @@
             this.button47.TabIndex = 186;
             this.button47.Text = "DIAGNOSE";
             this.button47.UseVisualStyleBackColor = true;
+            this.button47.Click += new System.EventHandler(this.button47_Click);
             // 
             // checkedListBox1
             // 
@@ -1712,12 +1763,13 @@
             // button30
             // 
             this.button30.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
-            this.button30.Location = new System.Drawing.Point(1252, 321);
+            this.button30.Location = new System.Drawing.Point(1252, 320);
             this.button30.Name = "button30";
             this.button30.Size = new System.Drawing.Size(75, 23);
             this.button30.TabIndex = 93;
             this.button30.Text = "DIAGNOSE";
             this.button30.UseVisualStyleBackColor = true;
+            this.button30.Click += new System.EventHandler(this.button30_Click);
             // 
             // button4
             // 

@@ -51,6 +51,42 @@ namespace Expert_system_on_meningitis
 
         private void button4_Click(object sender, EventArgs e)
         {
+            if (textBox1.Text == string.Empty)
+            {
+                MessageBox.Show("field can't be empty, please enter a value!");
+                return;
+
+            }
+
+            if (textBox2.Text == string.Empty)
+            {
+                MessageBox.Show("field can't be empty, please enter a value!");
+                return;
+
+            }
+
+            if (textBox3.Text == string.Empty)
+            {
+                MessageBox.Show("field can't be empty, please enter a value!");
+                return;
+
+            }
+
+            if (textBox4.Text == string.Empty)
+            {
+                MessageBox.Show("field can't be empty, please enter a value!");
+                return;
+
+            }
+
+            if (textBox6.Text == string.Empty)
+            {
+                MessageBox.Show("field can't be empty, please enter a value!");
+                return;
+
+            }
+
+
             MySqlConnection con = new MySqlConnection("server=localhost;user id=root;database=meningitis");
             con.Open();
             MySqlCommand cmd = new MySqlCommand("INSERT INTO diagnosis_record (`name`, `address`, `age`, `gender`, `card_number`, `diagnosis_report`) VALUES ('" + textBox1.Text + "','" + textBox2.Text + "','" + textBox3.Text + "','" + listBox1.Text + "','" + textBox6.Text + "','" + textBox4.Text + "')", con);

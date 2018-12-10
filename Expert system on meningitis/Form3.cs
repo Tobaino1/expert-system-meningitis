@@ -51,6 +51,50 @@ namespace Expert_system_on_meningitis
 
         private void button2_Click(object sender, EventArgs e)
         {
+            if (textBox1.Text == string.Empty)
+            {
+                MessageBox.Show("field can't be empty, please enter a value!");
+                return;
+
+            }
+
+
+            if (textBox2.Text == string.Empty)
+            {
+                MessageBox.Show("field can't be empty, please enter a value!");
+                return;
+
+            }
+
+            if (textBox3.Text == string.Empty)
+            {
+                MessageBox.Show("field can't be empty, please enter a value!");
+                return;
+
+            }
+
+            if (textBox4.Text == string.Empty)
+            {
+                MessageBox.Show("field can't be empty, please enter a value!");
+                return;
+
+            }
+
+            if (textBox5.Text == string.Empty)
+            {
+                MessageBox.Show("field can't be empty, please enter a value!");
+                return;
+
+            }
+
+            if (textBox6.Text == string.Empty)
+            {
+                MessageBox.Show("field can't be empty, please enter a value!");
+                return;
+
+            }
+
+
             MySqlConnection con = new MySqlConnection("server=localhost;user id=root;database=meningitis");
             con.Open();
             MySqlCommand cmd = new MySqlCommand("INSERT INTO patientreg (`name`, `address`, `age`, `phone_no`, `gender`, `card_no`) VALUES ('" + textBox1.Text + "','" + textBox2.Text + "','" + textBox3.Text + "','" + textBox4.Text + "','" + textBox5.Text + "','" + textBox6.Text + "')", con);
@@ -76,6 +120,49 @@ namespace Expert_system_on_meningitis
 
         private void button3_Click(object sender, EventArgs e)
         {
+            if (textBox1.Text == string.Empty)
+            {
+                MessageBox.Show("field can't be empty, please enter a value!");
+                return;
+
+            }
+
+            if (textBox2.Text == string.Empty)
+            {
+                MessageBox.Show("field can't be empty, please enter a value!");
+                return;
+
+            }
+
+            if (textBox3.Text == string.Empty)
+            {
+                MessageBox.Show("field can't be empty, please enter a value!");
+                return;
+
+            }
+
+            if (textBox4.Text == string.Empty)
+            {
+                MessageBox.Show("field can't be empty, please enter a value!");
+                return;
+
+            }
+
+            if (textBox5.Text == string.Empty)
+            {
+                MessageBox.Show("field can't be empty, please enter a value!");
+                return;
+
+            }
+
+            if (textBox6.Text == string.Empty)
+            {
+                MessageBox.Show("field can't be empty, please enter a value!");
+                return;
+
+            }
+
+
             MySqlConnection con = new MySqlConnection("server=localhost;user id=root;database=meningitis");
             con.Open();
             MySqlCommand cmd = new MySqlCommand("DELETE FROM `patientreg` WHERE card_no = '" + textBox7.Text + "'", con);
@@ -88,6 +175,48 @@ namespace Expert_system_on_meningitis
 
         private void button4_Click(object sender, EventArgs e)
         {
+            if (textBox1.Text == string.Empty)
+            {
+                MessageBox.Show("field can't be empty, please enter a value!");
+                return;
+
+            }
+
+            if (textBox2.Text == string.Empty)
+            {
+                MessageBox.Show("field can't be empty, please enter a value!");
+            }
+
+            if (textBox3.Text == string.Empty)
+            {
+                MessageBox.Show("field can't be empty, please enter a value!");
+                return;
+
+            }
+
+            if (textBox4.Text == string.Empty)
+            {
+                MessageBox.Show("field can't be empty, please enter a value!");
+                return;
+
+            }
+
+            if (textBox5.Text == string.Empty)
+            {
+                MessageBox.Show("field can't be empty, please enter a value!");
+                return;
+
+            }
+
+            if (textBox6.Text == string.Empty)
+            {
+                MessageBox.Show("field can't be empty, please enter a value!");
+                return;
+
+            }
+
+
+
             MySqlConnection con = new MySqlConnection("server=localhost;user id=root;database=meningitis");
             con.Open();
             MySqlCommand cmd = new MySqlCommand("UPDATE `patientreg` SET `name`= '" + textBox1.Text + "',`address`= '" + textBox2.Text + "',`age`= '" + textBox3.Text + "',`phone_no`= '" + textBox4.Text + "',`gender`= '" + textBox5.Text + "',`card_no`= '" + textBox6.Text +"' WHERE card_no = '" + textBox7.Text + "'", con);
