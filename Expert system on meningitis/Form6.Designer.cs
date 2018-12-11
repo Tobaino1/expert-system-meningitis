@@ -46,7 +46,7 @@
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.DarkMagenta;
-            this.label2.Location = new System.Drawing.Point(50, 152);
+            this.label2.Location = new System.Drawing.Point(281, 175);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(77, 18);
             this.label2.TabIndex = 4;
@@ -57,7 +57,7 @@
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.DarkMagenta;
-            this.label1.Location = new System.Drawing.Point(50, 216);
+            this.label1.Location = new System.Drawing.Point(281, 239);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(75, 18);
             this.label1.TabIndex = 6;
@@ -68,7 +68,7 @@
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.Color.Black;
-            this.label3.Location = new System.Drawing.Point(165, 53);
+            this.label3.Location = new System.Drawing.Point(491, 22);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(352, 24);
             this.label3.TabIndex = 8;
@@ -77,7 +77,7 @@
             // pictureBox1
             // 
             this.pictureBox1.Image = global::Expert_system_on_meningitis.Properties.Resources.loginimg1;
-            this.pictureBox1.Location = new System.Drawing.Point(543, 135);
+            this.pictureBox1.Location = new System.Drawing.Point(774, 158);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(123, 125);
             this.pictureBox1.TabIndex = 9;
@@ -87,7 +87,7 @@
             // button1
             // 
             this.button1.ForeColor = System.Drawing.Color.DarkMagenta;
-            this.button1.Location = new System.Drawing.Point(179, 279);
+            this.button1.Location = new System.Drawing.Point(410, 302);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(101, 40);
             this.button1.TabIndex = 10;
@@ -98,7 +98,7 @@
             // button2
             // 
             this.button2.ForeColor = System.Drawing.Color.DarkMagenta;
-            this.button2.Location = new System.Drawing.Point(321, 279);
+            this.button2.Location = new System.Drawing.Point(552, 302);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(101, 40);
             this.button2.TabIndex = 11;
@@ -110,7 +110,7 @@
             // 
             this.button4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button4.ForeColor = System.Drawing.Color.DarkViolet;
-            this.button4.Location = new System.Drawing.Point(548, 388);
+            this.button4.Location = new System.Drawing.Point(779, 411);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(118, 37);
             this.button4.TabIndex = 15;
@@ -122,7 +122,7 @@
             // 
             this.button6.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button6.ForeColor = System.Drawing.Color.DarkViolet;
-            this.button6.Location = new System.Drawing.Point(548, 331);
+            this.button6.Location = new System.Drawing.Point(779, 354);
             this.button6.Name = "button6";
             this.button6.Size = new System.Drawing.Size(118, 37);
             this.button6.TabIndex = 12;
@@ -132,14 +132,14 @@
             // 
             // textBox2
             // 
-            this.textBox2.Location = new System.Drawing.Point(193, 152);
+            this.textBox2.Location = new System.Drawing.Point(424, 175);
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(229, 20);
             this.textBox2.TabIndex = 17;
             // 
             // textBox3
             // 
-            this.textBox3.Location = new System.Drawing.Point(193, 216);
+            this.textBox3.Location = new System.Drawing.Point(424, 239);
             this.textBox3.Name = "textBox3";
             this.textBox3.PasswordChar = '*';
             this.textBox3.Size = new System.Drawing.Size(229, 20);
@@ -150,7 +150,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.AntiqueWhite;
-            this.ClientSize = new System.Drawing.Size(731, 450);
+            this.ClientSize = new System.Drawing.Size(1354, 733);
             this.Controls.Add(this.textBox3);
             this.Controls.Add(this.textBox2);
             this.Controls.Add(this.button4);
