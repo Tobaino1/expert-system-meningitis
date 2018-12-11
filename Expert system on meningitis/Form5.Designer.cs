@@ -170,10 +170,21 @@
             this.button26 = new System.Windows.Forms.Button();
             this.checkBox40 = new System.Windows.Forms.CheckBox();
             this.button47 = new System.Windows.Forms.Button();
-            this.checkedListBox1 = new System.Windows.Forms.CheckedListBox();
             this.button30 = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
+            this.checkBox71 = new System.Windows.Forms.CheckBox();
+            this.button6 = new System.Windows.Forms.Button();
+            this.checkBox72 = new System.Windows.Forms.CheckBox();
+            this.button7 = new System.Windows.Forms.Button();
+            this.checkBox73 = new System.Windows.Forms.CheckBox();
+            this.button8 = new System.Windows.Forms.Button();
+            this.checkBox74 = new System.Windows.Forms.CheckBox();
+            this.button78 = new System.Windows.Forms.Button();
+            this.checkBox75 = new System.Windows.Forms.CheckBox();
             this.button5 = new System.Windows.Forms.Button();
+            this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.label3 = new System.Windows.Forms.Label();
+            this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
             // label1
@@ -181,7 +192,7 @@
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.Purple;
-            this.label1.Location = new System.Drawing.Point(509, 9);
+            this.label1.Location = new System.Drawing.Point(596, 24);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(186, 24);
             this.label1.TabIndex = 7;
@@ -215,7 +226,7 @@
             // button1
             // 
             this.button1.ForeColor = System.Drawing.Color.Red;
-            this.button1.Location = new System.Drawing.Point(185, 81);
+            this.button1.Location = new System.Drawing.Point(185, 231);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(75, 23);
             this.button1.TabIndex = 10;
@@ -227,7 +238,7 @@
             // 
             this.checkBox1.AutoSize = true;
             this.checkBox1.ForeColor = System.Drawing.Color.Red;
-            this.checkBox1.Location = new System.Drawing.Point(26, 85);
+            this.checkBox1.Location = new System.Drawing.Point(22, 235);
             this.checkBox1.Name = "checkBox1";
             this.checkBox1.Size = new System.Drawing.Size(61, 17);
             this.checkBox1.TabIndex = 11;
@@ -238,7 +249,7 @@
             // 
             this.checkBox2.AutoSize = true;
             this.checkBox2.ForeColor = System.Drawing.Color.Red;
-            this.checkBox2.Location = new System.Drawing.Point(22, 114);
+            this.checkBox2.Location = new System.Drawing.Point(22, 261);
             this.checkBox2.Name = "checkBox2";
             this.checkBox2.Size = new System.Drawing.Size(90, 17);
             this.checkBox2.TabIndex = 36;
@@ -248,7 +259,7 @@
             // button9
             // 
             this.button9.ForeColor = System.Drawing.Color.Red;
-            this.button9.Location = new System.Drawing.Point(185, 109);
+            this.button9.Location = new System.Drawing.Point(185, 257);
             this.button9.Name = "button9";
             this.button9.Size = new System.Drawing.Size(75, 23);
             this.button9.TabIndex = 35;
@@ -260,7 +271,7 @@
             // 
             this.checkBox3.AutoSize = true;
             this.checkBox3.ForeColor = System.Drawing.Color.Red;
-            this.checkBox3.Location = new System.Drawing.Point(23, 145);
+            this.checkBox3.Location = new System.Drawing.Point(23, 286);
             this.checkBox3.Name = "checkBox3";
             this.checkBox3.Size = new System.Drawing.Size(84, 17);
             this.checkBox3.TabIndex = 38;
@@ -270,7 +281,7 @@
             // button10
             // 
             this.button10.ForeColor = System.Drawing.Color.Red;
-            this.button10.Location = new System.Drawing.Point(185, 141);
+            this.button10.Location = new System.Drawing.Point(185, 282);
             this.button10.Name = "button10";
             this.button10.Size = new System.Drawing.Size(75, 23);
             this.button10.TabIndex = 37;
@@ -282,7 +293,7 @@
             // 
             this.checkBox4.AutoSize = true;
             this.checkBox4.ForeColor = System.Drawing.Color.Red;
-            this.checkBox4.Location = new System.Drawing.Point(22, 175);
+            this.checkBox4.Location = new System.Drawing.Point(22, 308);
             this.checkBox4.Name = "checkBox4";
             this.checkBox4.Size = new System.Drawing.Size(79, 17);
             this.checkBox4.TabIndex = 40;
@@ -292,7 +303,7 @@
             // button11
             // 
             this.button11.ForeColor = System.Drawing.Color.Red;
-            this.button11.Location = new System.Drawing.Point(185, 175);
+            this.button11.Location = new System.Drawing.Point(185, 306);
             this.button11.Name = "button11";
             this.button11.Size = new System.Drawing.Size(75, 23);
             this.button11.TabIndex = 39;
@@ -304,7 +315,7 @@
             // 
             this.checkBox5.AutoSize = true;
             this.checkBox5.ForeColor = System.Drawing.Color.Red;
-            this.checkBox5.Location = new System.Drawing.Point(22, 204);
+            this.checkBox5.Location = new System.Drawing.Point(22, 333);
             this.checkBox5.Name = "checkBox5";
             this.checkBox5.Size = new System.Drawing.Size(108, 17);
             this.checkBox5.TabIndex = 42;
@@ -314,7 +325,7 @@
             // button12
             // 
             this.button12.ForeColor = System.Drawing.Color.Red;
-            this.button12.Location = new System.Drawing.Point(185, 200);
+            this.button12.Location = new System.Drawing.Point(185, 332);
             this.button12.Name = "button12";
             this.button12.Size = new System.Drawing.Size(75, 23);
             this.button12.TabIndex = 41;
@@ -326,7 +337,7 @@
             // 
             this.checkBox6.AutoSize = true;
             this.checkBox6.ForeColor = System.Drawing.Color.Red;
-            this.checkBox6.Location = new System.Drawing.Point(22, 231);
+            this.checkBox6.Location = new System.Drawing.Point(22, 361);
             this.checkBox6.Name = "checkBox6";
             this.checkBox6.Size = new System.Drawing.Size(126, 17);
             this.checkBox6.TabIndex = 44;
@@ -336,7 +347,7 @@
             // button13
             // 
             this.button13.ForeColor = System.Drawing.Color.Red;
-            this.button13.Location = new System.Drawing.Point(185, 229);
+            this.button13.Location = new System.Drawing.Point(185, 356);
             this.button13.Name = "button13";
             this.button13.Size = new System.Drawing.Size(75, 23);
             this.button13.TabIndex = 43;
@@ -348,7 +359,7 @@
             // 
             this.checkBox7.AutoSize = true;
             this.checkBox7.ForeColor = System.Drawing.Color.Red;
-            this.checkBox7.Location = new System.Drawing.Point(22, 374);
+            this.checkBox7.Location = new System.Drawing.Point(22, 493);
             this.checkBox7.Name = "checkBox7";
             this.checkBox7.Size = new System.Drawing.Size(85, 17);
             this.checkBox7.TabIndex = 56;
@@ -358,7 +369,7 @@
             // button14
             // 
             this.button14.ForeColor = System.Drawing.Color.Red;
-            this.button14.Location = new System.Drawing.Point(185, 370);
+            this.button14.Location = new System.Drawing.Point(185, 490);
             this.button14.Name = "button14";
             this.button14.Size = new System.Drawing.Size(75, 23);
             this.button14.TabIndex = 55;
@@ -392,7 +403,7 @@
             // 
             this.checkBox9.AutoSize = true;
             this.checkBox9.ForeColor = System.Drawing.Color.Red;
-            this.checkBox9.Location = new System.Drawing.Point(22, 344);
+            this.checkBox9.Location = new System.Drawing.Point(22, 467);
             this.checkBox9.Name = "checkBox9";
             this.checkBox9.Size = new System.Drawing.Size(113, 17);
             this.checkBox9.TabIndex = 52;
@@ -402,7 +413,7 @@
             // button16
             // 
             this.button16.ForeColor = System.Drawing.Color.Red;
-            this.button16.Location = new System.Drawing.Point(185, 340);
+            this.button16.Location = new System.Drawing.Point(185, 461);
             this.button16.Name = "button16";
             this.button16.Size = new System.Drawing.Size(75, 23);
             this.button16.TabIndex = 51;
@@ -414,7 +425,7 @@
             // 
             this.checkBox10.AutoSize = true;
             this.checkBox10.ForeColor = System.Drawing.Color.Red;
-            this.checkBox10.Location = new System.Drawing.Point(22, 316);
+            this.checkBox10.Location = new System.Drawing.Point(22, 441);
             this.checkBox10.Name = "checkBox10";
             this.checkBox10.Size = new System.Drawing.Size(84, 17);
             this.checkBox10.TabIndex = 50;
@@ -424,7 +435,7 @@
             // button17
             // 
             this.button17.ForeColor = System.Drawing.Color.Red;
-            this.button17.Location = new System.Drawing.Point(185, 312);
+            this.button17.Location = new System.Drawing.Point(185, 436);
             this.button17.Name = "button17";
             this.button17.Size = new System.Drawing.Size(75, 23);
             this.button17.TabIndex = 49;
@@ -436,7 +447,7 @@
             // 
             this.checkBox11.AutoSize = true;
             this.checkBox11.ForeColor = System.Drawing.Color.Red;
-            this.checkBox11.Location = new System.Drawing.Point(22, 287);
+            this.checkBox11.Location = new System.Drawing.Point(22, 410);
             this.checkBox11.Name = "checkBox11";
             this.checkBox11.Size = new System.Drawing.Size(85, 17);
             this.checkBox11.TabIndex = 48;
@@ -446,7 +457,7 @@
             // button18
             // 
             this.button18.ForeColor = System.Drawing.Color.Red;
-            this.button18.Location = new System.Drawing.Point(185, 285);
+            this.button18.Location = new System.Drawing.Point(185, 408);
             this.button18.Name = "button18";
             this.button18.Size = new System.Drawing.Size(75, 23);
             this.button18.TabIndex = 47;
@@ -458,7 +469,7 @@
             // 
             this.checkBox12.AutoSize = true;
             this.checkBox12.ForeColor = System.Drawing.Color.Red;
-            this.checkBox12.Location = new System.Drawing.Point(23, 257);
+            this.checkBox12.Location = new System.Drawing.Point(23, 383);
             this.checkBox12.Name = "checkBox12";
             this.checkBox12.Size = new System.Drawing.Size(64, 17);
             this.checkBox12.TabIndex = 46;
@@ -468,7 +479,7 @@
             // button19
             // 
             this.button19.ForeColor = System.Drawing.Color.Red;
-            this.button19.Location = new System.Drawing.Point(185, 257);
+            this.button19.Location = new System.Drawing.Point(185, 380);
             this.button19.Name = "button19";
             this.button19.Size = new System.Drawing.Size(75, 23);
             this.button19.TabIndex = 45;
@@ -480,7 +491,7 @@
             // 
             this.checkBox13.AutoSize = true;
             this.checkBox13.ForeColor = System.Drawing.Color.Red;
-            this.checkBox13.Location = new System.Drawing.Point(22, 547);
+            this.checkBox13.Location = new System.Drawing.Point(333, 606);
             this.checkBox13.Name = "checkBox13";
             this.checkBox13.Size = new System.Drawing.Size(96, 17);
             this.checkBox13.TabIndex = 68;
@@ -490,7 +501,7 @@
             // button20
             // 
             this.button20.ForeColor = System.Drawing.Color.Red;
-            this.button20.Location = new System.Drawing.Point(185, 547);
+            this.button20.Location = new System.Drawing.Point(541, 605);
             this.button20.Name = "button20";
             this.button20.Size = new System.Drawing.Size(75, 23);
             this.button20.TabIndex = 67;
@@ -502,7 +513,7 @@
             // 
             this.checkBox14.AutoSize = true;
             this.checkBox14.ForeColor = System.Drawing.Color.Red;
-            this.checkBox14.Location = new System.Drawing.Point(22, 521);
+            this.checkBox14.Location = new System.Drawing.Point(977, 610);
             this.checkBox14.Name = "checkBox14";
             this.checkBox14.Size = new System.Drawing.Size(110, 17);
             this.checkBox14.TabIndex = 66;
@@ -512,7 +523,7 @@
             // button21
             // 
             this.button21.ForeColor = System.Drawing.Color.Red;
-            this.button21.Location = new System.Drawing.Point(185, 517);
+            this.button21.Location = new System.Drawing.Point(1251, 610);
             this.button21.Name = "button21";
             this.button21.Size = new System.Drawing.Size(75, 23);
             this.button21.TabIndex = 65;
@@ -524,7 +535,7 @@
             // 
             this.checkBox15.AutoSize = true;
             this.checkBox15.ForeColor = System.Drawing.Color.Red;
-            this.checkBox15.Location = new System.Drawing.Point(22, 492);
+            this.checkBox15.Location = new System.Drawing.Point(22, 604);
             this.checkBox15.Name = "checkBox15";
             this.checkBox15.Size = new System.Drawing.Size(82, 17);
             this.checkBox15.TabIndex = 64;
@@ -534,7 +545,7 @@
             // button22
             // 
             this.button22.ForeColor = System.Drawing.Color.Red;
-            this.button22.Location = new System.Drawing.Point(185, 489);
+            this.button22.Location = new System.Drawing.Point(185, 602);
             this.button22.Name = "button22";
             this.button22.Size = new System.Drawing.Size(75, 23);
             this.button22.TabIndex = 63;
@@ -546,7 +557,7 @@
             // 
             this.checkBox16.AutoSize = true;
             this.checkBox16.ForeColor = System.Drawing.Color.Red;
-            this.checkBox16.Location = new System.Drawing.Point(22, 460);
+            this.checkBox16.Location = new System.Drawing.Point(22, 577);
             this.checkBox16.Name = "checkBox16";
             this.checkBox16.Size = new System.Drawing.Size(136, 17);
             this.checkBox16.TabIndex = 62;
@@ -556,7 +567,7 @@
             // button23
             // 
             this.button23.ForeColor = System.Drawing.Color.Red;
-            this.button23.Location = new System.Drawing.Point(185, 459);
+            this.button23.Location = new System.Drawing.Point(185, 574);
             this.button23.Name = "button23";
             this.button23.Size = new System.Drawing.Size(75, 23);
             this.button23.TabIndex = 61;
@@ -568,7 +579,7 @@
             // 
             this.checkBox17.AutoSize = true;
             this.checkBox17.ForeColor = System.Drawing.Color.Red;
-            this.checkBox17.Location = new System.Drawing.Point(22, 433);
+            this.checkBox17.Location = new System.Drawing.Point(22, 549);
             this.checkBox17.Name = "checkBox17";
             this.checkBox17.Size = new System.Drawing.Size(134, 17);
             this.checkBox17.TabIndex = 60;
@@ -578,7 +589,7 @@
             // button24
             // 
             this.button24.ForeColor = System.Drawing.Color.Red;
-            this.button24.Location = new System.Drawing.Point(185, 429);
+            this.button24.Location = new System.Drawing.Point(185, 548);
             this.button24.Name = "button24";
             this.button24.Size = new System.Drawing.Size(75, 23);
             this.button24.TabIndex = 59;
@@ -590,7 +601,7 @@
             // 
             this.checkBox18.AutoSize = true;
             this.checkBox18.ForeColor = System.Drawing.Color.Red;
-            this.checkBox18.Location = new System.Drawing.Point(23, 404);
+            this.checkBox18.Location = new System.Drawing.Point(23, 522);
             this.checkBox18.Name = "checkBox18";
             this.checkBox18.Size = new System.Drawing.Size(114, 17);
             this.checkBox18.TabIndex = 58;
@@ -600,7 +611,7 @@
             // button25
             // 
             this.button25.ForeColor = System.Drawing.Color.Red;
-            this.button25.Location = new System.Drawing.Point(185, 401);
+            this.button25.Location = new System.Drawing.Point(185, 520);
             this.button25.Name = "button25";
             this.button25.Size = new System.Drawing.Size(75, 23);
             this.button25.TabIndex = 57;
@@ -612,7 +623,7 @@
             // 
             this.checkBox20.AutoSize = true;
             this.checkBox20.ForeColor = System.Drawing.Color.Red;
-            this.checkBox20.Location = new System.Drawing.Point(22, 579);
+            this.checkBox20.Location = new System.Drawing.Point(665, 610);
             this.checkBox20.Name = "checkBox20";
             this.checkBox20.Size = new System.Drawing.Size(108, 17);
             this.checkBox20.TabIndex = 70;
@@ -622,7 +633,7 @@
             // button27
             // 
             this.button27.ForeColor = System.Drawing.Color.Red;
-            this.button27.Location = new System.Drawing.Point(185, 578);
+            this.button27.Location = new System.Drawing.Point(849, 606);
             this.button27.Name = "button27";
             this.button27.Size = new System.Drawing.Size(75, 23);
             this.button27.TabIndex = 69;
@@ -689,7 +700,7 @@
             // 
             this.checkBox24.AutoSize = true;
             this.checkBox24.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
-            this.checkBox24.Location = new System.Drawing.Point(311, 325);
+            this.checkBox24.Location = new System.Drawing.Point(333, 325);
             this.checkBox24.Name = "checkBox24";
             this.checkBox24.Size = new System.Drawing.Size(140, 17);
             this.checkBox24.TabIndex = 92;
@@ -699,7 +710,7 @@
             // button31
             // 
             this.button31.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
-            this.button31.Location = new System.Drawing.Point(518, 324);
+            this.button31.Location = new System.Drawing.Point(540, 324);
             this.button31.Name = "button31";
             this.button31.Size = new System.Drawing.Size(75, 23);
             this.button31.TabIndex = 91;
@@ -711,7 +722,7 @@
             // 
             this.checkBox25.AutoSize = true;
             this.checkBox25.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
-            this.checkBox25.Location = new System.Drawing.Point(311, 296);
+            this.checkBox25.Location = new System.Drawing.Point(333, 296);
             this.checkBox25.Name = "checkBox25";
             this.checkBox25.Size = new System.Drawing.Size(133, 17);
             this.checkBox25.TabIndex = 90;
@@ -721,7 +732,7 @@
             // button32
             // 
             this.button32.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
-            this.button32.Location = new System.Drawing.Point(518, 292);
+            this.button32.Location = new System.Drawing.Point(540, 292);
             this.button32.Name = "button32";
             this.button32.Size = new System.Drawing.Size(75, 23);
             this.button32.TabIndex = 89;
@@ -733,7 +744,7 @@
             // 
             this.checkBox26.AutoSize = true;
             this.checkBox26.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
-            this.checkBox26.Location = new System.Drawing.Point(311, 268);
+            this.checkBox26.Location = new System.Drawing.Point(333, 268);
             this.checkBox26.Name = "checkBox26";
             this.checkBox26.Size = new System.Drawing.Size(117, 17);
             this.checkBox26.TabIndex = 88;
@@ -743,7 +754,7 @@
             // button33
             // 
             this.button33.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
-            this.button33.Location = new System.Drawing.Point(518, 263);
+            this.button33.Location = new System.Drawing.Point(540, 263);
             this.button33.Name = "button33";
             this.button33.Size = new System.Drawing.Size(75, 23);
             this.button33.TabIndex = 87;
@@ -755,7 +766,7 @@
             // 
             this.checkBox27.AutoSize = true;
             this.checkBox27.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
-            this.checkBox27.Location = new System.Drawing.Point(311, 240);
+            this.checkBox27.Location = new System.Drawing.Point(333, 240);
             this.checkBox27.Name = "checkBox27";
             this.checkBox27.Size = new System.Drawing.Size(124, 17);
             this.checkBox27.TabIndex = 86;
@@ -765,7 +776,7 @@
             // button34
             // 
             this.button34.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
-            this.button34.Location = new System.Drawing.Point(518, 235);
+            this.button34.Location = new System.Drawing.Point(540, 235);
             this.button34.Name = "button34";
             this.button34.Size = new System.Drawing.Size(75, 23);
             this.button34.TabIndex = 85;
@@ -799,7 +810,7 @@
             // 
             this.checkBox29.AutoSize = true;
             this.checkBox29.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
-            this.checkBox29.Location = new System.Drawing.Point(311, 208);
+            this.checkBox29.Location = new System.Drawing.Point(333, 208);
             this.checkBox29.Name = "checkBox29";
             this.checkBox29.Size = new System.Drawing.Size(126, 17);
             this.checkBox29.TabIndex = 82;
@@ -809,7 +820,7 @@
             // button36
             // 
             this.button36.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
-            this.button36.Location = new System.Drawing.Point(519, 206);
+            this.button36.Location = new System.Drawing.Point(541, 206);
             this.button36.Name = "button36";
             this.button36.Size = new System.Drawing.Size(75, 23);
             this.button36.TabIndex = 81;
@@ -821,7 +832,7 @@
             // 
             this.checkBox30.AutoSize = true;
             this.checkBox30.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
-            this.checkBox30.Location = new System.Drawing.Point(311, 96);
+            this.checkBox30.Location = new System.Drawing.Point(333, 96);
             this.checkBox30.Name = "checkBox30";
             this.checkBox30.Size = new System.Drawing.Size(165, 17);
             this.checkBox30.TabIndex = 80;
@@ -831,7 +842,7 @@
             // button37
             // 
             this.button37.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
-            this.button37.Location = new System.Drawing.Point(520, 92);
+            this.button37.Location = new System.Drawing.Point(542, 92);
             this.button37.Name = "button37";
             this.button37.Size = new System.Drawing.Size(75, 23);
             this.button37.TabIndex = 79;
@@ -843,7 +854,7 @@
             // 
             this.checkBox31.AutoSize = true;
             this.checkBox31.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
-            this.checkBox31.Location = new System.Drawing.Point(311, 179);
+            this.checkBox31.Location = new System.Drawing.Point(333, 179);
             this.checkBox31.Name = "checkBox31";
             this.checkBox31.Size = new System.Drawing.Size(102, 17);
             this.checkBox31.TabIndex = 78;
@@ -853,7 +864,7 @@
             // button38
             // 
             this.button38.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
-            this.button38.Location = new System.Drawing.Point(520, 175);
+            this.button38.Location = new System.Drawing.Point(542, 175);
             this.button38.Name = "button38";
             this.button38.Size = new System.Drawing.Size(75, 23);
             this.button38.TabIndex = 77;
@@ -865,7 +876,7 @@
             // 
             this.checkBox32.AutoSize = true;
             this.checkBox32.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
-            this.checkBox32.Location = new System.Drawing.Point(311, 151);
+            this.checkBox32.Location = new System.Drawing.Point(333, 151);
             this.checkBox32.Name = "checkBox32";
             this.checkBox32.Size = new System.Drawing.Size(152, 17);
             this.checkBox32.TabIndex = 76;
@@ -875,7 +886,7 @@
             // button39
             // 
             this.button39.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
-            this.button39.Location = new System.Drawing.Point(520, 147);
+            this.button39.Location = new System.Drawing.Point(542, 147);
             this.button39.Name = "button39";
             this.button39.Size = new System.Drawing.Size(75, 23);
             this.button39.TabIndex = 75;
@@ -887,7 +898,7 @@
             // 
             this.checkBox33.AutoSize = true;
             this.checkBox33.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
-            this.checkBox33.Location = new System.Drawing.Point(311, 124);
+            this.checkBox33.Location = new System.Drawing.Point(333, 124);
             this.checkBox33.Name = "checkBox33";
             this.checkBox33.Size = new System.Drawing.Size(104, 17);
             this.checkBox33.TabIndex = 74;
@@ -897,7 +908,7 @@
             // button40
             // 
             this.button40.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
-            this.button40.Location = new System.Drawing.Point(520, 120);
+            this.button40.Location = new System.Drawing.Point(542, 120);
             this.button40.Name = "button40";
             this.button40.Size = new System.Drawing.Size(75, 23);
             this.button40.TabIndex = 73;
@@ -932,7 +943,7 @@
             // 
             this.checkBox35.AutoSize = true;
             this.checkBox35.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
-            this.checkBox35.Location = new System.Drawing.Point(311, 441);
+            this.checkBox35.Location = new System.Drawing.Point(333, 441);
             this.checkBox35.Name = "checkBox35";
             this.checkBox35.Size = new System.Drawing.Size(140, 17);
             this.checkBox35.TabIndex = 108;
@@ -942,7 +953,7 @@
             // button42
             // 
             this.button42.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
-            this.button42.Location = new System.Drawing.Point(518, 435);
+            this.button42.Location = new System.Drawing.Point(540, 435);
             this.button42.Name = "button42";
             this.button42.Size = new System.Drawing.Size(75, 23);
             this.button42.TabIndex = 107;
@@ -954,7 +965,7 @@
             // 
             this.checkBox36.AutoSize = true;
             this.checkBox36.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
-            this.checkBox36.Location = new System.Drawing.Point(311, 410);
+            this.checkBox36.Location = new System.Drawing.Point(333, 410);
             this.checkBox36.Name = "checkBox36";
             this.checkBox36.Size = new System.Drawing.Size(121, 17);
             this.checkBox36.TabIndex = 106;
@@ -964,7 +975,7 @@
             // button43
             // 
             this.button43.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
-            this.button43.Location = new System.Drawing.Point(518, 406);
+            this.button43.Location = new System.Drawing.Point(540, 406);
             this.button43.Name = "button43";
             this.button43.Size = new System.Drawing.Size(75, 23);
             this.button43.TabIndex = 105;
@@ -976,7 +987,7 @@
             // 
             this.checkBox37.AutoSize = true;
             this.checkBox37.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
-            this.checkBox37.Location = new System.Drawing.Point(311, 383);
+            this.checkBox37.Location = new System.Drawing.Point(333, 383);
             this.checkBox37.Name = "checkBox37";
             this.checkBox37.Size = new System.Drawing.Size(117, 17);
             this.checkBox37.TabIndex = 104;
@@ -986,7 +997,7 @@
             // button44
             // 
             this.button44.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
-            this.button44.Location = new System.Drawing.Point(518, 378);
+            this.button44.Location = new System.Drawing.Point(540, 378);
             this.button44.Name = "button44";
             this.button44.Size = new System.Drawing.Size(75, 23);
             this.button44.TabIndex = 103;
@@ -998,7 +1009,7 @@
             // 
             this.checkBox38.AutoSize = true;
             this.checkBox38.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
-            this.checkBox38.Location = new System.Drawing.Point(311, 353);
+            this.checkBox38.Location = new System.Drawing.Point(333, 353);
             this.checkBox38.Name = "checkBox38";
             this.checkBox38.Size = new System.Drawing.Size(103, 17);
             this.checkBox38.TabIndex = 102;
@@ -1008,7 +1019,7 @@
             // button45
             // 
             this.button45.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
-            this.button45.Location = new System.Drawing.Point(518, 352);
+            this.button45.Location = new System.Drawing.Point(540, 352);
             this.button45.Name = "button45";
             this.button45.Size = new System.Drawing.Size(75, 23);
             this.button45.TabIndex = 101;
@@ -1528,7 +1539,7 @@
             // 
             this.checkBox42.AutoSize = true;
             this.checkBox42.ForeColor = System.Drawing.Color.Blue;
-            this.checkBox42.Location = new System.Drawing.Point(311, 582);
+            this.checkBox42.Location = new System.Drawing.Point(334, 582);
             this.checkBox42.Name = "checkBox42";
             this.checkBox42.Size = new System.Drawing.Size(126, 17);
             this.checkBox42.TabIndex = 171;
@@ -1538,7 +1549,7 @@
             // button49
             // 
             this.button49.ForeColor = System.Drawing.Color.Blue;
-            this.button49.Location = new System.Drawing.Point(519, 579);
+            this.button49.Location = new System.Drawing.Point(542, 579);
             this.button49.Name = "button49";
             this.button49.Size = new System.Drawing.Size(75, 23);
             this.button49.TabIndex = 170;
@@ -1550,7 +1561,7 @@
             // 
             this.checkBox56.AutoSize = true;
             this.checkBox56.ForeColor = System.Drawing.Color.Blue;
-            this.checkBox56.Location = new System.Drawing.Point(310, 554);
+            this.checkBox56.Location = new System.Drawing.Point(333, 554);
             this.checkBox56.Name = "checkBox56";
             this.checkBox56.Size = new System.Drawing.Size(136, 17);
             this.checkBox56.TabIndex = 169;
@@ -1560,7 +1571,7 @@
             // button63
             // 
             this.button63.ForeColor = System.Drawing.Color.Blue;
-            this.button63.Location = new System.Drawing.Point(519, 551);
+            this.button63.Location = new System.Drawing.Point(542, 551);
             this.button63.Name = "button63";
             this.button63.Size = new System.Drawing.Size(75, 23);
             this.button63.TabIndex = 168;
@@ -1572,7 +1583,7 @@
             // 
             this.checkBox57.AutoSize = true;
             this.checkBox57.ForeColor = System.Drawing.Color.Blue;
-            this.checkBox57.Location = new System.Drawing.Point(311, 527);
+            this.checkBox57.Location = new System.Drawing.Point(333, 527);
             this.checkBox57.Name = "checkBox57";
             this.checkBox57.Size = new System.Drawing.Size(124, 17);
             this.checkBox57.TabIndex = 167;
@@ -1582,7 +1593,7 @@
             // button64
             // 
             this.button64.ForeColor = System.Drawing.Color.Blue;
-            this.button64.Location = new System.Drawing.Point(520, 521);
+            this.button64.Location = new System.Drawing.Point(542, 521);
             this.button64.Name = "button64";
             this.button64.Size = new System.Drawing.Size(75, 23);
             this.button64.TabIndex = 166;
@@ -1594,7 +1605,7 @@
             // 
             this.checkBox66.AutoSize = true;
             this.checkBox66.ForeColor = System.Drawing.Color.Blue;
-            this.checkBox66.Location = new System.Drawing.Point(311, 498);
+            this.checkBox66.Location = new System.Drawing.Point(333, 498);
             this.checkBox66.Name = "checkBox66";
             this.checkBox66.Size = new System.Drawing.Size(124, 17);
             this.checkBox66.TabIndex = 165;
@@ -1604,7 +1615,7 @@
             // button73
             // 
             this.button73.ForeColor = System.Drawing.Color.Blue;
-            this.button73.Location = new System.Drawing.Point(520, 492);
+            this.button73.Location = new System.Drawing.Point(542, 492);
             this.button73.Name = "button73";
             this.button73.Size = new System.Drawing.Size(75, 23);
             this.button73.TabIndex = 164;
@@ -1714,7 +1725,7 @@
             // button26
             // 
             this.button26.ForeColor = System.Drawing.Color.Red;
-            this.button26.Location = new System.Drawing.Point(1251, 583);
+            this.button26.Location = new System.Drawing.Point(1251, 580);
             this.button26.Name = "button26";
             this.button26.Size = new System.Drawing.Size(75, 23);
             this.button26.TabIndex = 188;
@@ -1726,7 +1737,7 @@
             // 
             this.checkBox40.AutoSize = true;
             this.checkBox40.ForeColor = System.Drawing.Color.Blue;
-            this.checkBox40.Location = new System.Drawing.Point(311, 469);
+            this.checkBox40.Location = new System.Drawing.Point(333, 469);
             this.checkBox40.Name = "checkBox40";
             this.checkBox40.Size = new System.Drawing.Size(158, 17);
             this.checkBox40.TabIndex = 187;
@@ -1736,29 +1747,13 @@
             // button47
             // 
             this.button47.ForeColor = System.Drawing.Color.Blue;
-            this.button47.Location = new System.Drawing.Point(520, 463);
+            this.button47.Location = new System.Drawing.Point(542, 463);
             this.button47.Name = "button47";
             this.button47.Size = new System.Drawing.Size(75, 23);
             this.button47.TabIndex = 186;
             this.button47.Text = "DIAGNOSE";
             this.button47.UseVisualStyleBackColor = true;
             this.button47.Click += new System.EventHandler(this.button47_Click);
-            // 
-            // checkedListBox1
-            // 
-            this.checkedListBox1.FormattingEnabled = true;
-            this.checkedListBox1.Items.AddRange(new object[] {
-            "SELECT ONE OF THE RISK FACTORS FOR MENINGITIS",
-            "Age",
-            "Living and working conditions",
-            "Poultry workers & Transmission Listeriosis",
-            "Head injuries & Brain injuries",
-            "Suppressed immune system"});
-            this.checkedListBox1.Location = new System.Drawing.Point(464, 42);
-            this.checkedListBox1.Name = "checkedListBox1";
-            this.checkedListBox1.Size = new System.Drawing.Size(351, 19);
-            this.checkedListBox1.TabIndex = 199;
-            this.checkedListBox1.SelectedIndexChanged += new System.EventHandler(this.checkedListBox1_SelectedIndexChanged);
             // 
             // button30
             // 
@@ -1783,26 +1778,151 @@
             this.button4.UseVisualStyleBackColor = true;
             this.button4.Click += new System.EventHandler(this.button4_Click_1);
             // 
+            // checkBox71
+            // 
+            this.checkBox71.AutoSize = true;
+            this.checkBox71.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
+            this.checkBox71.Location = new System.Drawing.Point(6, 46);
+            this.checkBox71.Name = "checkBox71";
+            this.checkBox71.Size = new System.Drawing.Size(156, 17);
+            this.checkBox71.TabIndex = 209;
+            this.checkBox71.Text = "Suppressed immune system";
+            this.checkBox71.UseVisualStyleBackColor = true;
+            // 
+            // button6
+            // 
+            this.button6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
+            this.button6.Location = new System.Drawing.Point(213, 42);
+            this.button6.Name = "button6";
+            this.button6.Size = new System.Drawing.Size(75, 23);
+            this.button6.TabIndex = 208;
+            this.button6.Text = "check risk";
+            this.button6.UseVisualStyleBackColor = true;
+            this.button6.Click += new System.EventHandler(this.button6_Click);
+            // 
+            // checkBox72
+            // 
+            this.checkBox72.AutoSize = true;
+            this.checkBox72.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
+            this.checkBox72.Location = new System.Drawing.Point(6, 116);
+            this.checkBox72.Name = "checkBox72";
+            this.checkBox72.Size = new System.Drawing.Size(212, 17);
+            this.checkBox72.TabIndex = 207;
+            this.checkBox72.Text = "people who work with domestic animals";
+            this.checkBox72.UseVisualStyleBackColor = true;
+            // 
+            // button7
+            // 
+            this.button7.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
+            this.button7.Location = new System.Drawing.Point(214, 114);
+            this.button7.Name = "button7";
+            this.button7.Size = new System.Drawing.Size(75, 23);
+            this.button7.TabIndex = 206;
+            this.button7.Text = "check risk";
+            this.button7.UseVisualStyleBackColor = true;
+            this.button7.Click += new System.EventHandler(this.button7_Click);
+            // 
+            // checkBox73
+            // 
+            this.checkBox73.AutoSize = true;
+            this.checkBox73.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
+            this.checkBox73.Location = new System.Drawing.Point(6, 93);
+            this.checkBox73.Name = "checkBox73";
+            this.checkBox73.Size = new System.Drawing.Size(166, 17);
+            this.checkBox73.TabIndex = 205;
+            this.checkBox73.Text = "Living and working conditions";
+            this.checkBox73.UseVisualStyleBackColor = true;
+            // 
+            // button8
+            // 
+            this.button8.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
+            this.button8.Location = new System.Drawing.Point(214, 89);
+            this.button8.Name = "button8";
+            this.button8.Size = new System.Drawing.Size(75, 23);
+            this.button8.TabIndex = 204;
+            this.button8.Text = "check risk";
+            this.button8.UseVisualStyleBackColor = true;
+            this.button8.Click += new System.EventHandler(this.button8_Click_1);
+            // 
+            // checkBox74
+            // 
+            this.checkBox74.AutoSize = true;
+            this.checkBox74.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
+            this.checkBox74.Location = new System.Drawing.Point(6, 69);
+            this.checkBox74.Name = "checkBox74";
+            this.checkBox74.Size = new System.Drawing.Size(45, 17);
+            this.checkBox74.TabIndex = 203;
+            this.checkBox74.Text = "Age";
+            this.checkBox74.UseVisualStyleBackColor = true;
+            // 
+            // button78
+            // 
+            this.button78.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
+            this.button78.Location = new System.Drawing.Point(214, 65);
+            this.button78.Name = "button78";
+            this.button78.Size = new System.Drawing.Size(75, 23);
+            this.button78.TabIndex = 202;
+            this.button78.Text = "check risk";
+            this.button78.UseVisualStyleBackColor = true;
+            this.button78.Click += new System.EventHandler(this.button78_Click);
+            // 
+            // checkBox75
+            // 
+            this.checkBox75.AutoSize = true;
+            this.checkBox75.Location = new System.Drawing.Point(8, 141);
+            this.checkBox75.Name = "checkBox75";
+            this.checkBox75.Size = new System.Drawing.Size(59, 17);
+            this.checkBox75.TabIndex = 211;
+            this.checkBox75.Text = "Injuries";
+            this.checkBox75.UseVisualStyleBackColor = true;
+            // 
             // button5
             // 
-            this.button5.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button5.ForeColor = System.Drawing.Color.DarkViolet;
-            this.button5.Location = new System.Drawing.Point(829, 42);
+            this.button5.Location = new System.Drawing.Point(214, 141);
             this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(85, 28);
-            this.button5.TabIndex = 201;
-            this.button5.Text = "COMPUTE";
+            this.button5.Size = new System.Drawing.Size(75, 23);
+            this.button5.TabIndex = 212;
+            this.button5.Text = "check risk";
             this.button5.UseVisualStyleBackColor = true;
-            this.button5.Click += new System.EventHandler(this.button5_Click);
+            this.button5.Click += new System.EventHandler(this.button5_Click_1);
+            // 
+            // groupBox1
+            // 
+            this.groupBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
+            this.groupBox1.Controls.Add(this.label3);
+            this.groupBox1.Controls.Add(this.checkBox71);
+            this.groupBox1.Controls.Add(this.button5);
+            this.groupBox1.Controls.Add(this.button78);
+            this.groupBox1.Controls.Add(this.checkBox75);
+            this.groupBox1.Controls.Add(this.checkBox74);
+            this.groupBox1.Controls.Add(this.button8);
+            this.groupBox1.Controls.Add(this.checkBox73);
+            this.groupBox1.Controls.Add(this.button6);
+            this.groupBox1.Controls.Add(this.button7);
+            this.groupBox1.Controls.Add(this.checkBox72);
+            this.groupBox1.Location = new System.Drawing.Point(12, 12);
+            this.groupBox1.Name = "groupBox1";
+            this.groupBox1.Size = new System.Drawing.Size(315, 167);
+            this.groupBox1.TabIndex = 213;
+            this.groupBox1.TabStop = false;
+            this.groupBox1.Text = "RISK FACTORS FOR MENINGITIS";
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(55, 23);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(134, 13);
+            this.label3.TabIndex = 214;
+            this.label3.Text = "Select one of these factors";
             // 
             // Form5
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1354, 733);
-            this.Controls.Add(this.button5);
+            this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.button4);
-            this.Controls.Add(this.checkedListBox1);
             this.Controls.Add(this.checkBox67);
             this.Controls.Add(this.button74);
             this.Controls.Add(this.checkBox68);
@@ -1949,6 +2069,8 @@
             this.Name = "Form5";
             this.Text = "DIAGNOSIS";
             this.Load += new System.EventHandler(this.Form5_Load);
+            this.groupBox1.ResumeLayout(false);
+            this.groupBox1.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -2098,9 +2220,19 @@
         private System.Windows.Forms.Button button26;
         private System.Windows.Forms.CheckBox checkBox40;
         private System.Windows.Forms.Button button47;
-        private System.Windows.Forms.CheckedListBox checkedListBox1;
         private System.Windows.Forms.Button button30;
         private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.CheckBox checkBox71;
+        private System.Windows.Forms.Button button6;
+        private System.Windows.Forms.CheckBox checkBox72;
+        private System.Windows.Forms.Button button7;
+        private System.Windows.Forms.CheckBox checkBox73;
+        private System.Windows.Forms.Button button8;
+        private System.Windows.Forms.CheckBox checkBox74;
+        private System.Windows.Forms.Button button78;
+        private System.Windows.Forms.CheckBox checkBox75;
         private System.Windows.Forms.Button button5;
+        private System.Windows.Forms.GroupBox groupBox1;
+        private System.Windows.Forms.Label label3;
     }
 }

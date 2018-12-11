@@ -227,16 +227,7 @@ namespace Expert_system_on_meningitis
             }
         }
 
-        private void button5_Click(object sender, EventArgs e)
-        {
-            checkedListBox1.Items.Add("this is common");
-            checkedListBox1.Items.Add("this is famous");
-            checkedListBox1.Items.Add("this is popular");
-            checkedListBox1.Items.Add("this is well known");
-            checkedListBox1.Items.Add("this is trending");
-
-        }
-
+       
         private void button37_Click(object sender, EventArgs e)
         {
             if (checkBox30.Checked)
@@ -657,6 +648,52 @@ namespace Expert_system_on_meningitis
         private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
 
+        }
+
+        private void listBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            if (checkBox71.Checked)
+            {
+                MessageBox.Show("Alcoholism  Autoimmune disorders(e.g., lupus) Conditions like HIV / AIDS, cancer, or diabetes Immunosuppressive drugs(e.g., corticosteroids, chemotherapy) , Intravenous drug abuse, Removal of the spleen Smoking, Not receiving the mumps, Haemophilus influenzae type b, and pneumococcal vaccines(especially children aged 2 and younger) increases the risk for meningitis.");
+            }
+        }
+
+        private void button78_Click(object sender, EventArgs e)
+        {
+            if (checkBox74.Checked)
+            {
+                MessageBox.Show("Age is also a risk factor for meningitis. It is more common in people younger than 5 years old and those older than 60. People between the ages of 15 and 24 who live in boarding schools and college dormitories are also at increased risk.");
+            }
+        }
+
+        private void button8_Click_1(object sender, EventArgs e)
+        {
+            if (checkBox73.Checked) 
+            {
+                MessageBox.Show("Living and working with large groups of people (e.g., military bases, child care facilities) increases the risk for infectious meningitis.");
+                            }
+        }
+
+        private void button7_Click(object sender, EventArgs e)
+        {
+            if (checkBox72.Checked)
+            {
+                MessageBox.Show("People who work with domestic animals (e.g., dairy farmers, ranchers) and pregnant women are at increased risk for meningitis associated with listeriosis (disease transmitted from animals to humans via soil). Listeriosis can be transmitted from mother to fetus through the placenta, causing spontaneous abortion. The disease is usually fatal in newborns");
+            }
+        }
+
+        private void button5_Click_1(object sender, EventArgs e)
+        {
+            if (checkBox75.Checked)
+            {
+                MessageBox.Show("Head injuries and brain surgery also put patients at risk for meningitis.");
+
+            }
         }
     }
 }
