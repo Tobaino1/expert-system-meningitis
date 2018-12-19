@@ -23,7 +23,7 @@ namespace Expert_system_on_meningitis
         {
             Form2 myform = new Form2();
             this.Hide();
-              myform.Show();
+            myform.Show();
         }
 
         private void button3_Click(object sender, EventArgs e)
@@ -33,11 +33,32 @@ namespace Expert_system_on_meningitis
 
         private void button1_Click(object sender, EventArgs e)
         {
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                
+
             if (checkBox1.Checked)
             {
                 MessageBox.Show("MALARIA");
             }
+            else
+            if (checkBox2.Checked)
+            {
+                MessageBox.Show("MENINGITIS");
+            }
+            else
+                 if (checkBox3.Checked)
+            {
+                MessageBox.Show("MALARIA");
+            }
+            else
+                 if (checkBox4.Checked)
+            {
+                MessageBox.Show("MALARIA");
+            }
+            else
+                        if (checkBox5.Checked)
+            {
+                MessageBox.Show("MENINGITIS");
+            }
+           
         }
 
         private void label1_Click(object sender, EventArgs e)
@@ -45,7 +66,7 @@ namespace Expert_system_on_meningitis
 
         }
 
-       
+
 
         private void Form5_Load(object sender, EventArgs e)
         {
@@ -88,563 +109,365 @@ namespace Expert_system_on_meningitis
 
         private void checkedListBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
-           
-        }
 
-        private void button9_Click(object sender, EventArgs e)
-        {
-            if (checkBox2.Checked)
-            {
-                MessageBox.Show("MENINGITIS");
-            }
         }
 
         private void button10_Click(object sender, EventArgs e)
         {
+            if (checkBox1.Checked)
+            {
+                MessageBox.Show("MALARIA");
+            }
+            else
+           if (checkBox2.Checked)
+            {
+                MessageBox.Show("MENINGITIS");
+            }
+            else
             if (checkBox3.Checked)
             {
                 MessageBox.Show("MALARIA");
             }
-        }
-
-        private void button11_Click(object sender, EventArgs e)
-        {
+            else
             if (checkBox4.Checked)
             {
                 MessageBox.Show("MALARIA");
             }
-        }
-
-        private void button12_Click(object sender, EventArgs e)
-        {
-            if (checkBox5.Checked)
-            {
-                MessageBox.Show("MENINGITIS");
-            }
-        }
-
-        private void button13_Click(object sender, EventArgs e)
-        {
+            else
             if (checkBox6.Checked)
             {
                 MessageBox.Show("MENINGITIS");
             }
-        }
-
-        private void button19_Click(object sender, EventArgs e)
-        {
+            else
             if (checkBox12.Checked)
             {
                 MessageBox.Show("MALARIA");
             }
-        }
-
-        private void button18_Click(object sender, EventArgs e)
-        {
-            if (checkBox11.Checked)
+            else
+        if (checkBox11.Checked)
             {
                 MessageBox.Show("MENINGITIS");
             }
-        }
-
-        private void button17_Click(object sender, EventArgs e)
-        {
+            else
             if (checkBox10.Checked)
             {
                 MessageBox.Show("MALARIA");
             }
-        }
-
-        private void button16_Click(object sender, EventArgs e)
-        {
+            else
             if (checkBox9.Checked)
             {
                 MessageBox.Show("MALARIA");
             }
-        }
-
-        private void button14_Click(object sender, EventArgs e)
-        {
+            else
             if (checkBox7.Checked)
             {
                 MessageBox.Show("MALARIA");
             }
-        }
-
-        private void button25_Click(object sender, EventArgs e)
-        {
+            else
             if (checkBox18.Checked)
             {
                 MessageBox.Show("MENINGITIS");
             }
-        }
-
-        private void button24_Click(object sender, EventArgs e)
-        {
+            else
             if (checkBox17.Checked)
             {
                 MessageBox.Show("MENINGITIS");
             }
-        }
-
-        private void button23_Click(object sender, EventArgs e)
-        {
+            else
             if (checkBox16.Checked)
             {
                 MessageBox.Show("MALARIA");
             }
-        }
-
-        private void button22_Click(object sender, EventArgs e)
-        {
+            else
             if (checkBox15.Checked)
             {
                 MessageBox.Show("MALARIA");
             }
-        }
-
-        private void button21_Click(object sender, EventArgs e)
-        {
+            else
             if (checkBox14.Checked)
             {
                 MessageBox.Show("MENINGITIS");
             }
-        }
-
-        private void button20_Click(object sender, EventArgs e)
-        {
+            else
             if (checkBox13.Checked)
             {
                 MessageBox.Show("MENINGITIS");
             }
-        }
-
-        private void button27_Click(object sender, EventArgs e)
-        {
+            else
             if (checkBox20.Checked)
             {
                 MessageBox.Show("TUBERCULOSIS / MENINGITIS");
             }
-        }
-
-       
-        private void button37_Click(object sender, EventArgs e)
-        {
+            else
             if (checkBox30.Checked)
             {
                 MessageBox.Show("MENINGITIS");
             }
-
-        }
-
-        private void button40_Click(object sender, EventArgs e)
-        {
+            else
             if (checkBox33.Checked)
             {
                 MessageBox.Show("MENINGITIS");
             }
-        }
 
-        private void button39_Click(object sender, EventArgs e)
-        {
+            else
             if (checkBox32.Checked)
             {
                 MessageBox.Show("MENINGITIS");
             }
-        }
-
-        private void button38_Click(object sender, EventArgs e)
-        {
+            else
             if (checkBox31.Checked)
             {
                 MessageBox.Show("MENINGITIS");
             }
-        }
-
-        private void button36_Click(object sender, EventArgs e)
-        {
+            else
             if (checkBox29.Checked)
             {
                 MessageBox.Show("MENINGITIS");
             }
-        }
-
-        private void button34_Click(object sender, EventArgs e)
-        {
+            else
             if (checkBox27.Checked)
             {
                 MessageBox.Show("MENINGITIS");
             }
-        }
-
-        private void button33_Click(object sender, EventArgs e)
-        {
+            else
             if (checkBox26.Checked)
             {
                 MessageBox.Show("MENINGITIS");
             }
-        }
-
-        private void button32_Click(object sender, EventArgs e)
-        {
+            else
             if (checkBox25.Checked)
             {
                 MessageBox.Show("MENINGITIS");
             }
-        }
-
-        private void button31_Click(object sender, EventArgs e)
-        {
+            else
             if (checkBox24.Checked)
             {
                 MessageBox.Show("MENINGITIS");
             }
-        }
-
-        private void button45_Click(object sender, EventArgs e)
-        {
+            else
             if (checkBox38.Checked)
             {
                 MessageBox.Show("MENINGITIS");
             }
-        }
-
-        private void button44_Click(object sender, EventArgs e)
-        {
-            if (checkBox37.Checked)
-            {
-                MessageBox.Show("TUBERCULOSIS");
-            }
-        }
-
-        private void button43_Click(object sender, EventArgs e)
-        {
-            if (checkBox36.Checked)
-            {
-                MessageBox.Show("MENINGITIS");
-            }
-        }
-
-        private void button42_Click(object sender, EventArgs e)
-        {
+            else
+                if (checkBox37.Checked)
+                {
+                    MessageBox.Show("TUBERCULOSIS");
+                }
+            else
+                if (checkBox36.Checked)
+                {
+                    MessageBox.Show("MENINGITIS");
+                }
+            else
             if (checkBox35.Checked)
             {
                 MessageBox.Show("MENINGITIS");
             }
-        }
-
-        private void button47_Click(object sender, EventArgs e)
-        {
+            else
             if (checkBox40.Checked)
             {
                 MessageBox.Show("MENINGITIS");
             }
-        }
-
-        private void button73_Click(object sender, EventArgs e)
-        {
+            else
             if (checkBox66.Checked)
             {
                 MessageBox.Show("MENINGITIS");
             }
-        }
-
-        private void button64_Click(object sender, EventArgs e)
-        {
+            else
             if (checkBox57.Checked)
             {
                 MessageBox.Show("MENINGITIS");
             }
-        }
-
-        private void button63_Click(object sender, EventArgs e)
-        {
+            else
             if (checkBox56.Checked)
             {
                 MessageBox.Show("MENINGITIS");
             }
-        }
-
-        private void button49_Click(object sender, EventArgs e)
-        {
+            else
             if (checkBox42.Checked)
             {
                 MessageBox.Show("MENINGITIS");
             }
-        }
-
-        private void button59_Click(object sender, EventArgs e)
-        {
+            else
             if (checkBox52.Checked)
             {
                 MessageBox.Show("TUBERCULOSIS");
             }
-        }
-
-        private void button58_Click(object sender, EventArgs e)
-        {
+            else
             if (checkBox51.Checked)
             {
                 MessageBox.Show("TUBERCULOSIS");
             }
-        }
-
-        private void button57_Click(object sender, EventArgs e)
-        {
+            else
             if (checkBox50.Checked)
             {
                 MessageBox.Show("TUBERCULOSIS");
             }
-        }
-
-        private void button56_Click(object sender, EventArgs e)
-        {
+            else
             if (checkBox49.Checked)
             {
                 MessageBox.Show("TUBERCULOSIS");
             }
-        }
-
-        private void button53_Click(object sender, EventArgs e)
-        {
+            else
             if (checkBox46.Checked)
             {
                 MessageBox.Show("TUBERCULOSIS");
             }
-        }
-
-        private void button52_Click(object sender, EventArgs e)
-        {
+            else
             if (checkBox45.Checked)
             {
                 MessageBox.Show("MENINGITIS");
             }
-        }
 
-        private void button51_Click(object sender, EventArgs e)
-        {
+            else
             if (checkBox44.Checked)
             {
                 MessageBox.Show("MENINGITIS");
             }
-        }
-
-        private void button50_Click(object sender, EventArgs e)
-        {
+            else
             if (checkBox43.Checked)
             {
                 MessageBox.Show("MENINGITIS");
             }
-        }
-
-        private void button72_Click(object sender, EventArgs e)
-        {
+            else
             if (checkBox65.Checked)
             {
                 MessageBox.Show("MENINGITIS");
             }
-        }
-
-        private void button71_Click(object sender, EventArgs e)
-        {
+            else
             if (checkBox64.Checked)
             {
                 MessageBox.Show("MENINGITIS");
             }
-        }
-
-        private void button70_Click(object sender, EventArgs e)
-        {
+            else
             if (checkBox63.Checked)
             {
                 MessageBox.Show("MENINGITIS");
             }
-        }
-
-        private void button69_Click(object sender, EventArgs e)
-        {
+            else
             if (checkBox62.Checked)
             {
                 MessageBox.Show("MENINGITIS");
             }
-        }
-
-        private void button68_Click(object sender, EventArgs e)
-        {
+            else
             if (checkBox61.Checked)
             {
                 MessageBox.Show("MENINGITIS");
             }
-        }
-
-        private void button67_Click(object sender, EventArgs e)
-        {
+            else
             if (checkBox60.Checked)
             {
                 MessageBox.Show("FEVER");
             }
-        }
-
-        private void button66_Click(object sender, EventArgs e)
-        {
+            else
             if (checkBox59.Checked)
             {
                 MessageBox.Show("MENINGITIS");
             }
-        }
-
-        private void button62_Click(object sender, EventArgs e)
-        {
+            else
             if (checkBox55.Checked)
             {
                 MessageBox.Show("TUBERCULOSIS");
             }
-        }
-
-        private void button61_Click(object sender, EventArgs e)
-        {
+            else
             if (checkBox54.Checked)
             {
                 MessageBox.Show("TUBERCULOSIS");
             }
-        }
-
-        private void button29_Click(object sender, EventArgs e)
-        {
+            else
             if (checkBox22.Checked)
             {
                 MessageBox.Show("TUBERCULOSIS");
             }
-        }
-
-        private void button48_Click(object sender, EventArgs e)
-        {
+            else
             if (checkBox41.Checked)
             {
                 MessageBox.Show("TUBERCULOSIS");
             }
-        }
-
-        private void button28_Click(object sender, EventArgs e)
-        {
+            else
             if (checkBox21.Checked)
             {
                 MessageBox.Show("TUBERCULOSIS");
             }
-        }
-
-        private void button41_Click(object sender, EventArgs e)
-        {
+            else
             if (checkBox34.Checked)
             {
                 MessageBox.Show("MENINGITIS");
             }
-        }
-
-        private void button46_Click(object sender, EventArgs e)
-        {
+            else
             if (checkBox39.Checked)
             {
                 MessageBox.Show("MENINGITIS");
             }
-        }
-
-        private void button35_Click(object sender, EventArgs e)
-        {
+            else
             if (checkBox28.Checked)
             {
                 MessageBox.Show("MENINGITIS");
             }
-        }
-
-        private void button15_Click(object sender, EventArgs e)
-        {
+            else
             if (checkBox8.Checked)
             {
                 MessageBox.Show("MALARIA");
             }
-        }
-
-        private void button30_Click(object sender, EventArgs e)
-        {
+            else
             if (checkBox23.Checked)
             {
                 MessageBox.Show("MENINGITIS");
             }
-        }
-
-        private void button65_Click(object sender, EventArgs e)
-        {
+            else
             if (checkBox58.Checked)
             {
                 MessageBox.Show("MENINGITIS");
             }
-        }
-
-        private void button77_Click(object sender, EventArgs e)
-        {
+            else
             if (checkBox58.Checked)
             {
                 MessageBox.Show("TYPHOID FEVER");
             }
-        }
 
-        private void button54_Click(object sender, EventArgs e)
-        {
+            else
             if (checkBox47.Checked)
             {
                 MessageBox.Show("MENINGITIS");
             }
-        }
-
-        private void button55_Click(object sender, EventArgs e)
-        {
+            else
             if (checkBox48.Checked)
             {
                 MessageBox.Show("MENINGITIS");
             }
-        }
-
-        private void button60_Click(object sender, EventArgs e)
-        {
+            else
             if (checkBox53.Checked)
             {
                 MessageBox.Show("TUBERCULOSIS");
             }
-        }
-
-        private void button76_Click(object sender, EventArgs e)
-        {
+            else
             if (checkBox69.Checked)
             {
                 MessageBox.Show("MENINGITIS");
             }
-        }
-
-        private void button75_Click(object sender, EventArgs e)
-        {
+            else
             if (checkBox68.Checked)
             {
                 MessageBox.Show("MENINGITIS");
             }
-        }
-
-        private void button74_Click(object sender, EventArgs e)
-        {
+            else 
             if (checkBox67.Checked)
             {
                 MessageBox.Show("MENINGITIS");
             }
-        }
-
-        private void button26_Click(object sender, EventArgs e)
-        {
-            if (checkBox19.Checked)
+            else
+                if (checkBox19.Checked)
             {
                 MessageBox.Show("CHOLERA");
             }
-        }
-
+            else
+                 if (checkBox5.Checked)
+                {
+                    MessageBox.Show("MENINGITIS");
+                }
+        }    
+       
         private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
 
@@ -694,6 +517,31 @@ namespace Expert_system_on_meningitis
                 MessageBox.Show("Head injuries and brain surgery also put patients at risk for meningitis.");
 
             }
+        }
+
+        private void checkBox64_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void groupBox1_Enter(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button9_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button11_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button49_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
