@@ -42,14 +42,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Expert system on meningitis.exe" size="203768">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Expert system on meningitis.exe" size="210424">
       <assemblyIdentity name="Expert system on meningitis" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>WzYTo/QsBb/P+NqlpMc5eKk6gmMVC2CUrujrQ2c++zQ=</dsig:DigestValue>
+        <dsig:DigestValue>5R7FA8mtm7aC0lWf/qJZD6T0erVfIdWqibG7KI/o58s=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="Expert system on meningitis.exe" version="1.0.0.1" publicKeyToken="92817a5812b25e36" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="Expert system on meningitis" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="Expert system on meningitis.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Expert system on meningitis.exe" size="210424">
+      <assemblyIdentity name="Expert system on meningitis" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>5R7FA8mtm7aC0lWf/qJZD6T0erVfIdWqibG7KI/o58s=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="MySql.Data.dll" size="403968">
+      <assemblyIdentity name="MySql.Data" version="6.10.8.0" publicKeyToken="C5687FC88969C44D" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>L5VOgTonC+dENioyKxTxi1X0pkznPZgQdUeGHfli0Ik=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="Expert system on meningitis.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>rl5/qDc7Jz+tB+BIbOv9iMGPlRe6YJwrjmU09dnlPcs=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=TOBAINOKING\Administrator" issuerKeyHash="44de18c2f12f70c968629a0de3f5e3e8ce5e609f" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>lYRCNnAgDsqyUrJ1r3/CBHYdBcHUAdIhWZWVpNtrWas=</DigestValue></Reference></SignedInfo><SignatureValue>EomvkhsaEXchEqqvWcnpvTCYPOUK7P/02LnkIFR5hImYOdXOxeOnWiJCerM5NP8IUtMbod1UFUORrKrFgv3uBapiO/T3mlsb12Cz/4RlMHD5eu1mIpafrNBW4tz1WsFSuF6yF0naI7d7mrKvG/rDi3vOSesbgQT5kX0Wdan+kF0=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>sFxikGzUrPZ7AkCerFd+VTiXCA/TCKXLvCkZI6B8EyMriZol3Ylyiv7Cz4yxv8evGBodZ6bCWGa574CYqB2aYufoPlKL77lZWiWK4OoYlWGA/C0uiyCla+D0Yg0EP4woOqv1N4BiXUyNckDdKWjwZMw72sJGQnwwbbxjEoD/gy0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="ab596bdba495955921d201d4c1051d7604c27faf75b252b2ca0e207036428495" Description="" Url=""><as:assemblyIdentity name="Expert system on meningitis.exe" version="1.0.0.1" publicKeyToken="92817a5812b25e36" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=TOBAINOKING\Administrator</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>rSkJDdnrfFppX07mXvEpPwvIdfz8CgT5ego/DhyfXs0=</DigestValue></Reference></SignedInfo><SignatureValue>CPppTLGaMTHgMhBGNvFoueMjurDga1niLNiN4JifW1f7F82Hor2okAHve3PVAIFqtP4TYXhAeM6zmteUbwd11yUQqmHtT6Cb8K4p5bbdZdHCrqbRdRzjgy51Wsbv59HbgdBlYMkfKtnALcNhz0Oa4tpU7S11uy0+pFqayCWG0yk=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>sFxikGzUrPZ7AkCerFd+VTiXCA/TCKXLvCkZI6B8EyMriZol3Ylyiv7Cz4yxv8evGBodZ6bCWGa574CYqB2aYufoPlKL77lZWiWK4OoYlWGA/C0uiyCla+D0Yg0EP4woOqv1N4BiXUyNckDdKWjwZMw72sJGQnwwbbxjEoD/gy0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB/TCCAWagAwIBAgIQd1YAowvRUrlF8gOPxenB9jANBgkqhkiG9w0BAQsFADA9MTswOQYDVQQDHjIAVABPAEIAQQBJAE4ATwBLAEkATgBHAFwAQQBkAG0AaQBuAGkAcwB0AHIAYQB0AG8AcjAeFw0xODEyMTUxOTUxMThaFw0xOTEyMTYwMTUxMThaMD0xOzA5BgNVBAMeMgBUAE8AQgBBAEkATgBPAEsASQBOAEcAXABBAGQAbQBpAG4AaQBzAHQAcgBhAHQAbwByMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCwXGKQbNSs9nsCQJ6sV35VOJcID9MIpcu8KRkjoHwTIyuJmiXdiXKK/sLPjLG/x68YGh1npsJYZrnvgJioHZpi5+g+UovvuVlaJYrg6hiVYYD8LS6LIKVr4PRiDQQ/jCg6q/U3gGJdTI1yQN0paPBkzDvawkZCfDBtvGMSgP+DLQIDAQABMA0GCSqGSIb3DQEBCwUAA4GBAAPG32Xkw0W7r3jQiBFBjzqP9m8BfLRKdmV2WPJLleILG0nJFtozruf/dAPPqnMtAgNx2zxpAfZGPB3IVQHNZ2BUYNsbC4BVUoY0PG0xDJmm4cZUFlfSn+9WOUifQxtf4pydY3uf0YLkQo5QazoOfmimDoPik4RgedxjaSDeXDiD</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
